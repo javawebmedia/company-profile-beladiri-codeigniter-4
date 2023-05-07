@@ -1,3 +1,7 @@
+# Website Company Profile dengan CodeIgniter - Support untuk Sekolah Beladiri
+Ini adalah kode website company profile yang sudah mendukung fitur untuk sekolah bela diri. Anda dapat mengaktifkan dan menon aktifkan fitur sekolah bela diri.
+
+
 # CodeIgniter 4 Development
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
