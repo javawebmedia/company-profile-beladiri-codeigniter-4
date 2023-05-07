@@ -1,0 +1,112 @@
+CRITICAL - 2022-11-19 04:10:22 --> Class 'App\Controllers\Admin\Nilai_perkembangan_model' not found
+in APPPATH/Controllers/Admin/Raport.php on line 228.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->siswa('2', '1', '1')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 04:10:22 --> Class 'App\Controllers\Admin\Nilai_perkembangan_model' not found
+in APPPATH/Controllers/Admin/Raport.php on line 228.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->siswa('2', '1', 'ajax.php')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 04:51:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(373): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/Admin/Raport.php(492): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->delete_esktrakurikuler('2', '1', '1', '4')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 04:51:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(373): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/Admin/Raport.php(492): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->delete_esktrakurikuler('2', '1', '1', 'ajax.php')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 04:53:25 --> Cannot redeclare App\Models\Nilai_ekstrakurikuler_model::hapus_all()
+in APPPATH/Models/Nilai_ekstrakurikuler_model.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 04:53:25 --> Cannot redeclare App\Models\Nilai_ekstrakurikuler_model::hapus_all()
+in APPPATH/Models/Nilai_ekstrakurikuler_model.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 04:53:50 --> Undefined index: id_nilai_ekstrakurikuler
+in APPPATH/Models/Nilai_ekstrakurikuler_model.php on line 118.
+ 1 APPPATH/Models/Nilai_ekstrakurikuler_model.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_nilai_ekstrakurikuler', 'APPPATH/Models/Nilai_ekstrakurikuler_model.php', 118, [...])
+ 2 APPPATH/Controllers/Admin/Raport.php(492): App\Models\Nilai_ekstrakurikuler_model->hapus_siswa([...])
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->delete_esktrakurikuler('2', '1', '1', '4')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 04:53:50 --> Undefined index: id_nilai_ekstrakurikuler
+in APPPATH/Models/Nilai_ekstrakurikuler_model.php on line 118.
+ 1 APPPATH/Models/Nilai_ekstrakurikuler_model.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_nilai_ekstrakurikuler', 'APPPATH/Models/Nilai_ekstrakurikuler_model.php', 118, [...])
+ 2 APPPATH/Controllers/Admin/Raport.php(492): App\Models\Nilai_ekstrakurikuler_model->hapus_siswa([...])
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->delete_esktrakurikuler('2', '1', '1', 'ajax.php')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 05:16:46 --> Undefined property: stdClass::$nomor_tujuan
+in APPPATH/Views/admin/raport/cetak_siswa.php on line 94.
+ 1 APPPATH/Views/admin/raport/cetak_siswa.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nomor_tujuan', 'APPPATH/Views/admin/raport/cetak_siswa.php', 94, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/raport/cetak_siswa.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/raport/cetak_siswa', [], true)
+ 5 APPPATH/Controllers/Admin/Raport.php(425): view('admin/raport/cetak_siswa', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->cetak_siswa('2', '1', '1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 05:20:23 --> Undefined property: stdClass::$konteks
+in APPPATH/Views/admin/raport/cetak_siswa.php on line 97.
+ 1 APPPATH/Views/admin/raport/cetak_siswa.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$konteks', 'APPPATH/Views/admin/raport/cetak_siswa.php', 97, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/raport/cetak_siswa.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/raport/cetak_siswa', [], true)
+ 5 APPPATH/Controllers/Admin/Raport.php(425): view('admin/raport/cetak_siswa', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->cetak_siswa('2', '1', '1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 05:21:15 --> Undefined property: stdClass::$konteks
+in APPPATH/Views/admin/raport/cetak_siswa.php on line 97.
+ 1 APPPATH/Views/admin/raport/cetak_siswa.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$konteks', 'APPPATH/Views/admin/raport/cetak_siswa.php', 97, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/raport/cetak_siswa.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/raport/cetak_siswa', [], true)
+ 5 APPPATH/Controllers/Admin/Raport.php(427): view('admin/raport/cetak_siswa', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->cetak_siswa('2', '1', '1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 05:39:00 --> Undefined variable: termin
+in APPPATH/Controllers/Admin/Raport.php on line 471.
+ 1 APPPATH/Controllers/Admin/Raport.php(471): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: termin', 'APPPATH/Controllers/Admin/Raport.php', 471, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->unduh_siswa('2', '1', '1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-19 05:39:01 --> Undefined variable: termin
+in APPPATH/Controllers/Admin/Raport.php on line 471.
+ 1 APPPATH/Controllers/Admin/Raport.php(471): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: termin', 'APPPATH/Controllers/Admin/Raport.php', 471, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Raport->unduh_siswa('2', '1', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

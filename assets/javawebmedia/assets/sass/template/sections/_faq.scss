@@ -1,0 +1,83 @@
+/* Faq 1 ---------------------------------- */ 
+.accordion-card {
+    margin-bottom: 20px;
+    transition: 0.4s ease-in-out;
+    .accordion-button {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: $title-font;
+        border: 0;
+        color: $title-color;
+        background-color: $white-color;
+        box-shadow: 0px 5px 15px rgba(42, 77, 113, 0.04);
+        border-radius: 5px;
+        padding: 15px 60px 15px 25px;
+        min-height: 50px;
+        gap: 10px;
+        margin-bottom: 0;
+        text-align: left;
+        transition: 0.3s;
+        position: relative;
+        &:after {
+            content: "\f067";
+            @include equal-size(55px);
+            height: 100%;
+            line-height: 1;
+            background-image: none;
+            font-family: $icon-font;
+            color: $title-color;
+            font-weight: 900;
+            font-size: 1em;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+        &:not(.collapsed) {
+            color: $white-color;
+            background-color: $theme-color;
+            box-shadow: none;
+            border-radius: 5px 5px 0 0;
+            // padding: 17px 70px 17px 25px;
+            &:after {
+                content: "\f068";
+                color: $white-color;
+            }
+        }
+    }
+    .accordion-collapse {
+        border: none;
+    }
+    .accordion-body {
+        box-shadow: 0px 5px 15px rgba(42, 77, 113, 0.04);
+        border-radius: 0 0 5px 5px;
+        background-color: $white-color;
+        padding: 23px 25px 30px 25px;
+    }
+    .faq-text {
+        margin-bottom: -0.48em;
+    }
+    .faq-img {
+        height: 100%;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@include xs {
+    .accordion-card .accordion-button {
+        font-size: 16px;
+    }
+}

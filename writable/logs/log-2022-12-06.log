@@ -1,0 +1,1303 @@
+CRITICAL - 2022-12-06 19:08:05 --> Undefined variable: site
+in APPPATH/Controllers/Berita.php on line 31.
+ 1 APPPATH/Controllers/Berita.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: site', 'APPPATH/Controllers/Berita.php', 31, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('pembuatan-website-profil')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:06 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:42 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:42 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:42 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:42 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:42 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:08:43 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'course', 'course_details.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:09:33 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:10:51 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:10:51 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:10:51 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:10:51 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:10:51 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:10:51 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:11:31 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:34 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:34 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:34 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:34 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:34 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:34 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:57 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:57 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:57 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:57 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:57 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:12:57 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:37 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:38 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:38 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:38 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:38 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:38 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:54 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:54 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:54 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:54 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:54 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:13:55 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:14:15 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:14:15 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:14:16 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:14:16 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:14:16 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:14:16 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 28.
+ 1 APPPATH/Controllers/Berita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:16:05 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:16:05 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:16:05 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:16:05 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:16:05 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:16:05 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:50 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:50 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:50 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:17:50 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:18:17 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:18:17 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:18:17 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:18:17 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:18:17 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:18:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:14 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:40 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:40 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:40 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:40 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:40 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:19:40 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 29.
+ 1 APPPATH/Controllers/Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 29, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:28:45 --> Undefined variable: pager
+in APPPATH/Controllers/Berita.php on line 20.
+ 1 APPPATH/Controllers/Berita.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH/Controllers/Berita.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:33:05 --> Cannot use object of type stdClass as array
+in APPPATH/Views/berita/index.php on line 25.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('berita/index', [], true)
+ 4 APPPATH/Views/layout/wrapper.php(10): view('berita/index')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/wrapper.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 8 APPPATH/Controllers/Berita.php(33): view('layout/wrapper', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:37:28 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:37 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:37 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:37 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:37 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:37 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:37 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:41:56 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:19 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:42:44 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:03 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:20 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:48 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:48 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:48 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:48 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:48 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:43:48 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:50:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:50:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:50:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:50:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:50:49 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:50:50 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:51:43 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:51:43 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:51:43 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:51:43 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:51:43 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:51:44 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:29 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:29 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:30 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:30 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:30 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:30 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:35 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:35 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:35 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:35 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:35 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:35 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:54 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('FCPATH/index.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:53:54 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:54:14 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:54:14 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:54:14 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:54:14 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:54:14 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-06 19:54:15 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 43.
+ 1 APPPATH/Controllers/Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

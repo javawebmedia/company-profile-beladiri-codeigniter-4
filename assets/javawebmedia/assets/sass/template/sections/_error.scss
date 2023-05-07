@@ -1,0 +1,40 @@
+.error-content {
+    padding: 210px;
+    text-align: center;
+}
+.error-img {
+    margin-bottom: -50px;
+}
+.error-title {
+    margin-bottom: 22px;
+}
+.error-text {
+    margin-bottom: 30px;
+}
+
+@include ml {
+	.error-content {
+		padding: 160px;
+	}
+}
+
+@include lg {
+	.error-content {
+		padding: 100px 0;
+	}
+}
+
+@include md {
+	.error-title {
+		margin-bottom: 15px;
+	}
+	.error-text {
+		margin-bottom: 20px;
+	}
+}
+
+@include sm {
+	.error-img {
+		margin-bottom: -25px;
+	}
+}

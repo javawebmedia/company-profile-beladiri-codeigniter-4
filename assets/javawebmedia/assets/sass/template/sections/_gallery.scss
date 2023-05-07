@@ -1,0 +1,109 @@
+/* Gallery 1 ---------------------------------- */ 
+.gallery-img {
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        transition: 0.4s ease-in-out;
+    }
+    &:before {
+        content: "";
+        @include equal-size(100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #0A2548;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+        z-index: 1;
+    }
+}
+.gallery-btn {
+    background-color: $white-color;
+    color: $theme-color;
+    @include equal-size-lineHeight(50px);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: 0.4s ease-in-out;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    &:hover {
+        background-color: $theme-color;
+        color: $white-color;
+    }
+}
+.gallery-card {
+    position: relative;
+    .gallery-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 15px;
+        text-align: center;
+        z-index: 3;
+        transition: 0.4s ease-in-out;
+        visibility: visible;
+        opacity: 0;
+        transform: translateY(50px);
+        transition-delay: 0.1s;
+    }
+    .gallery-title {
+        font-size: 24px;
+        font-weight: 600;
+        color: $white-color;
+        margin-bottom: 0;
+    }
+    .gallery-tag {
+        color: $white-color;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 4px;
+    }
+    &:hover {
+        .gallery-img {
+            &:before {
+                visibility: visible;
+                opacity: 0.8;
+            }
+            img {
+                transform: scale(1.06);
+            }
+        }
+        .gallery-btn {
+            transform: translate(-50%, -50%);
+            visibility: visible;
+            opacity: 1;
+        }
+        .gallery-content {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+@include lg {
+    .gallery-card {
+        .gallery-tag {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@include md {
+    .gallery-img {
+        img {
+            min-height: 320px;
+            object-fit: cover;
+        }
+    }
+}

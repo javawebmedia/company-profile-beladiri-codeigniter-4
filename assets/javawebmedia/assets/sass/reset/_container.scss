@@ -1,0 +1,50 @@
+@include ml {
+  :root {
+    --main-container      : 1250px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: calc(var(--main-container) + var(--container-gutters));
+    padding-left: calc(var(--container-gutters) / 2);
+    padding-right: calc(var(--container-gutters) / 2);
+  }
+}
+
+@media (min-width: 1700px) {
+  .as-container {
+    --main-container: 1450px;
+    transform: translateX(-115px);
+  }
+  .as-container3 {
+    --main-container: 1760px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .as-container {
+    --main-container: 1350px;
+    transform: translateX(-65px);
+  }
+  .as-container2 {
+    --main-container: 1680px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .container-fluid.px-0 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+
+}

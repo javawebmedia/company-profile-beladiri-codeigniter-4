@@ -1,0 +1,399 @@
+CRITICAL - 2022-09-09 16:28:45 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/User.php on line 79.
+ 1 APPPATH/Controllers/Admin/User.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/User.php', 79, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\User->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 16:52:01 --> Class 'App\Models\Kategori_staff_model' not found
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 16:52:53 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 16:53:12 --> Invalid file: admin/kategori_staff/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kategori_staff/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/kategori_staff/index', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/kategori_staff/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Kategori_staff.php(73): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:27:15 --> syntax error, unexpected 'nama_kategori_staff' (T_STRING), expecting ']'
+in APPPATH/Views/admin/kategori_staff/index.php on line 22.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/kategori_staff/index', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/kategori_staff/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Kategori_staff.php(73): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:30:20 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:30:20 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:30:39 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:30:50 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:37:05 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH/Images/Handlers/GDHandler.php on line 251.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(251): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH/Controllers/Admin/Kategori_staff.php(36): CodeIgniter\Images\Handlers\GDHandler->save('ROOTPATH/writable/../assets/upload/kategori_staff/thumbs/1662763024_adba82a0dff673173eac.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:37:38 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:40:44 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:41:37 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:42:10 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:42:17 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:42:48 --> Trying to get property 'nama_kategori_staff' of non-object
+in APPPATH/Controllers/Admin/Kategori_staff.php on line 135.
+ 1 APPPATH/Controllers/Admin/Kategori_staff.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori_staff\' of non-object', 'APPPATH/Controllers/Admin/Kategori_staff.php', 135, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Kategori_staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori_staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:56:51 --> Call to undefined function App\Controllers\Admin\checklogin()
+in APPPATH/Controllers/Admin/Staff.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:57:16 --> Invalid file: admin/staff/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/staff/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/staff/index', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/staff/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Staff.php(92): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 17:57:59 --> Cannot use object of type stdClass as array
+in APPPATH/Views/admin/staff/tambah.php on line 54.
+ 1 APPPATH/Views/admin/staff/index.php(1): include()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/staff/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/staff/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/staff/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Staff.php(92): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:03:29 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('13')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:03:29 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 APPPATH/Controllers/Admin/Staff.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Staff.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:03:51 --> Call to undefined function tanggal_id()
+in APPPATH/Views/admin/staff/edit.php on line 28.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/staff/edit', [], true)
+ 4 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/staff/edit')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 8 APPPATH/Controllers/Admin/Staff.php(175): view('admin/layout/wrapper', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('13')
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:03:51 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 APPPATH/Controllers/Admin/Staff.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:04:21 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 APPPATH/Controllers/Admin/Staff.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:04:35 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 APPPATH/Controllers/Admin/Staff.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:06:41 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 APPPATH/Controllers/Admin/Staff.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:07:14 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 170.
+ 1 APPPATH/Controllers/Admin/Staff.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:45:22 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 187.
+ 1 APPPATH/Controllers/Admin/Staff.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 187, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:46:21 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 187.
+ 1 APPPATH/Controllers/Admin/Staff.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 187, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:47:29 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 187.
+ 1 APPPATH/Controllers/Admin/Staff.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 187, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 18:52:02 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Staff.php on line 187.
+ 1 APPPATH/Controllers/Admin/Staff.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Staff.php', 187, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Staff->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 19:08:07 --> syntax error, unexpected '$total' (T_VARIABLE)
+in APPPATH/Controllers/Admin/Berita.php on line 23.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 19:08:42 --> syntax error, unexpected '$total' (T_VARIABLE)
+in APPPATH/Controllers/Admin/Berita.php on line 24.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 19:11:01 --> Undefined variable: total
+in APPPATH/Controllers/Admin/Berita.php on line 33.
+ 1 APPPATH/Controllers/Admin/Berita.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total', 'APPPATH/Controllers/Admin/Berita.php', 33, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 19:12:15 --> Undefined variable: total
+in APPPATH/Controllers/Admin/Berita.php on line 23.
+ 1 APPPATH/Controllers/Admin/Berita.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total', 'APPPATH/Controllers/Admin/Berita.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 19:34:43 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Admin/Berita.php on line 295.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 19:46:42 --> Undefined property: App\Controllers\Admin\Berita::$m_berita
+in APPPATH/Controllers/Admin/Berita.php on line 315.
+ 1 APPPATH/Controllers/Admin/Berita.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Berita::$m_berita', 'APPPATH/Controllers/Admin/Berita.php', 315, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->proses()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-09-09 20:10:07 --> mysqli_sql_exception: Unknown column 'paging' in 'field list' in /Applications/MAMP/htdocs/jw/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/jw/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `konfigu...', 0)
+#1 /Applications/MAMP/htdocs/jw/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `konfigu...')
+#2 /Applications/MAMP/htdocs/jw/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `konfigu...')
+#3 /Applications/MAMP/htdocs/jw/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `konfigu...', Array, false)
+#4 /Applications/MAMP/htdocs/jw/app/Models/Konfigurasi_model.php(23): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Applications/MAMP/htdocs/jw/app/Controllers/Admin/Konfigurasi.php(48): App\Models\Konfigurasi_model->edit(Array)
+#6 /Applications/MAMP/htdocs/jw/system/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->index()
+#7 /Applications/MAMP/htdocs/jw/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+#8 /Applications/MAMP/htdocs/jw/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/jw/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/jw/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2022-09-09 20:10:07 --> Unknown column 'paging' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `konfigurasi` SET `id_konfigurasi` = \'1\', `id_user` = \'1\', `namaweb` = \'Java Web Media\', `singkatan` = \'HaloToba\', `tagline` = \'Lestari Tobaku Lestari Alamku\', `tentang` = \'<p>Halo Toba merupakan sebuah situs pengenalan dan konservasi alam di desa wisata sekitar Danau Toba. Pengembangan situs Halo Toba merupakan hasil kerja sama antara Program Pendidikan Vokasi Universitas Indonesia dan Perum Jasa Tirta. Terdapat tiga desa wisata percontohan yang dipromosikan yaitu Desa Tanjung Bunga, Desa Aek Sipitudai, dan Desa Boho.</p>\', `deskripsi` = \'Halo Toba merupakan sebuah situs pengenalan dan konservasi alam di desa wisata sekitar Danau Toba. Pengembangan situs Halo Toba merupakan hasil kerja sama antara Program Pendidikan Vokasi Universitas Indonesia dan Perum Jasa Tirta. Terdapat tiga desa wisata percontohan yang dipromosikan yaitu Desa Tanjung Bunga, Desa Aek Sipitudai, dan Desa Boho.\', `website` = \'https://halotoba.id\', `email` = \'halotoba@gmail.com\', `email_cadangan` = \'halotoba@gmail.com\', `alamat` = \'<p><font color=\\"#202124\\" face=\\"arial, sans-serif\\"><span style=\\"font-size: 14px;\\">Kampus Program Pendidikan Vokasi UI, Gedung C, Lantai 3, Ruang 301 Depok, Jl. Akses Vokasi UI, Kukusan, Kecamatan Beji, Kota Depok, Jawa Barat 16424</span></font><br></p>\', `paging` = NULL, `telepon` = \'0818 0619 6015\', `hp` = \'0818 0619 6015\', `facebook` = \'https://www.facebook.com/pages/halotoba\', `twitter` = \'https://twitter.com/halotoba?lang=en\', `instagram` = \'https://www.instagram.com/halotoba/\', `youtube` = \'https://www.youtube.com/channel/UCaVu4Zts76y90MerdjqeK0g\', `nama_facebook` = \'Halo Toba\', `nama_twitter` = \'Halo Toba\', `nama_instagram` = \'Halo Toba\', `nama_youtube` = \'Halo Toba\', `google_map` = \'<iframe src=\\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.060404696429!2d106.8313582!3d-6.3597239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a60fedba8d73bf9!2sLembaga%20Vokasi%20UI%20(Training%20Center%20Lemkasi)!5e0!3m2!1sen!2sid!4v1644212981205!5m2!1sen!2sid\\" width=\\"600\\" height=\\"450\\" style=\\"border:0;\\" allowfullscreen=\\"\\" loading=\\"lazy\\"></iframe>\', `paginasi` = \'25\'
+WHERE `id_konfigurasi` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `konfigurasi` SET `id_konfigurasi` = \'1\', `id_user` = \'1\', `namaweb` = \'Java Web Media\', `singkatan` = \'HaloToba\', `tagline` = \'Lestari Tobaku Lestari Alamku\', `tentang` = \'<p>Halo Toba merupakan sebuah situs pengenalan dan konservasi alam di desa wisata sekitar Danau Toba. Pengembangan situs Halo Toba merupakan hasil kerja sama antara Program Pendidikan Vokasi Universitas Indonesia dan Perum Jasa Tirta. Terdapat tiga desa wisata percontohan yang dipromosikan yaitu Desa Tanjung Bunga, Desa Aek Sipitudai, dan Desa Boho.</p>\', `deskripsi` = \'Halo Toba merupakan sebuah situs pengenalan dan konservasi alam di desa wisata sekitar Danau Toba. Pengembangan situs Halo Toba merupakan hasil kerja sama antara Program Pendidikan Vokasi Universitas Indonesia dan Perum Jasa Tirta. Terdapat tiga desa wisata percontohan yang dipromosikan yaitu Desa Tanjung Bunga, Desa Aek Sipitudai, dan Desa Boho.\', `website` = \'https://halotoba.id\', `email` = \'halotoba@gmail.com\', `email_cadangan` = \'halotoba@gmail.com\', `alamat` = \'<p><font color=\\"#202124\\" face=\\"arial, sans-serif\\"><span style=\\"font-size: 14px;\\">Kampus Program Pendidikan Vokasi UI, Gedung C, Lantai 3, Ruang 301 Depok, Jl. Akses Vokasi UI, Kukusan, Kecamatan Beji, Kota Depok, Jawa Barat 16424</span></font><br></p>\', `paging` = NULL, `telepon` = \'0818 0619 6015\', `hp` = \'0818 0619 6015\', `facebook` = \'https://www.facebook.com/pages/halotoba\', `twitter` = \'https://twitter.com/halotoba?lang=en\', `instagram` = \'https://www.instagram.com/halotoba/\', `youtube` = \'https://www.youtube.com/channel/UCaVu4Zts76y90MerdjqeK0g\', `nama_facebook` = \'Halo Toba\', `nama_twitter` = \'Halo Toba\', `nama_instagram` = \'Halo Toba\', `nama_youtube` = \'Halo Toba\', `google_map` = \'<iframe src=\\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.060404696429!2d106.8313582!3d-6.3597239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a60fedba8d73bf9!2sLembaga%20Vokasi%20UI%20(Training%20Center%20Lemkasi)!5e0!3m2!1sen!2sid!4v1644212981205!5m2!1sen!2sid\\" width=\\"600\\" height=\\"450\\" style=\\"border:0;\\" allowfullscreen=\\"\\" loading=\\"lazy\\"></iframe>\', `paginasi` = \'25\'
+WHERE `id_konfigurasi` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `konfigurasi` SET `id_konfigurasi` = \'1\', `id_user` = \'1\', `namaweb` = \'Java Web Media\', `singkatan` = \'HaloToba\', `tagline` = \'Lestari Tobaku Lestari Alamku\', `tentang` = \'<p>Halo Toba merupakan sebuah situs pengenalan dan konservasi alam di desa wisata sekitar Danau Toba. Pengembangan situs Halo Toba merupakan hasil kerja sama antara Program Pendidikan Vokasi Universitas Indonesia dan Perum Jasa Tirta. Terdapat tiga desa wisata percontohan yang dipromosikan yaitu Desa Tanjung Bunga, Desa Aek Sipitudai, dan Desa Boho.</p>\', `deskripsi` = \'Halo Toba merupakan sebuah situs pengenalan dan konservasi alam di desa wisata sekitar Danau Toba. Pengembangan situs Halo Toba merupakan hasil kerja sama antara Program Pendidikan Vokasi Universitas Indonesia dan Perum Jasa Tirta. Terdapat tiga desa wisata percontohan yang dipromosikan yaitu Desa Tanjung Bunga, Desa Aek Sipitudai, dan Desa Boho.\', `website` = \'https://halotoba.id\', `email` = \'halotoba@gmail.com\', `email_cadangan` = \'halotoba@gmail.com\', `alamat` = \'<p><font color=\\"#202124\\" face=\\"arial, sans-serif\\"><span style=\\"font-size: 14px;\\">Kampus Program Pendidikan Vokasi UI, Gedung C, Lantai 3, Ruang 301 Depok, Jl. Akses Vokasi UI, Kukusan, Kecamatan Beji, Kota Depok, Jawa Barat 16424</span></font><br></p>\', `paging` = NULL, `telepon` = \'0818 0619 6015\', `hp` = \'0818 0619 6015\', `facebook` = \'https://www.facebook.com/pages/halotoba\', `twitter` = \'https://twitter.com/halotoba?lang=en\', `instagram` = \'https://www.instagram.com/halotoba/\', `youtube` = \'https://www.youtube.com/channel/UCaVu4Zts76y90MerdjqeK0g\', `nama_facebook` = \'Halo Toba\', `nama_twitter` = \'Halo Toba\', `nama_instagram` = \'Halo Toba\', `nama_youtube` = \'Halo Toba\', `google_map` = \'<iframe src=\\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.060404696429!2d106.8313582!3d-6.3597239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a60fedba8d73bf9!2sLembaga%20Vokasi%20UI%20(Training%20Center%20Lemkasi)!5e0!3m2!1sen!2sid!4v1644212981205!5m2!1sen!2sid\\" width=\\"600\\" height=\\"450\\" style=\\"border:0;\\" allowfullscreen=\\"\\" loading=\\"lazy\\"></iframe>\', `paginasi` = \'25\'
+WHERE `id_konfigurasi` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `konfigurasi` SET `id_konfigurasi` = :id_konfigurasi.1:, `id_user` = :id_user:, `namaweb` = :namaweb:, `singkatan` = :singkatan:, `tagline` = :tagline:, `tentang` = :tentang:, `deskripsi` = :deskripsi:, `website` = :website:, `email` = :email:, `email_cadangan` = :email_cadangan:, `alamat` = :alamat:, `paging` = :paging:, `telepon` = :telepon:, `hp` = :hp:, `facebook` = :facebook:, `twitter` = :twitter:, `instagram` = :instagram:, `youtube` = :youtube:, `nama_facebook` = :nama_facebook:, `nama_twitter` = :nama_twitter:, `nama_instagram` = :nama_instagram:, `nama_youtube` = :nama_youtube:, `google_map` = :google_map:, `paginasi` = :paginasi:
+WHERE `id_konfigurasi` = :id_konfigurasi:', [...], false)
+ 5 APPPATH/Models/Konfigurasi_model.php(23): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/Admin/Konfigurasi.php(48): App\Models\Konfigurasi_model->edit([...])
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 20:12:04 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 284.
+ 1 APPPATH/Controllers/Admin/Berita.php(284): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 284, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 20:12:18 --> Undefined variable: kategori
+in APPPATH/Views/admin/berita/index.php on line 37.
+ 1 APPPATH/Views/admin/berita/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'APPPATH/Views/admin/berita/index.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/berita/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Berita.php(98): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->jenis_berita('Berita')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 20:12:18 --> Undefined variable: kategori
+in APPPATH/Views/admin/berita/index.php on line 37.
+ 1 APPPATH/Views/admin/berita/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'APPPATH/Views/admin/berita/index.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/berita/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Berita.php(98): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->jenis_berita('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

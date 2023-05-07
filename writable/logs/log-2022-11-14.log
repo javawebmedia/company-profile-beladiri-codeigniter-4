@@ -1,0 +1,418 @@
+ERROR - 2022-11-14 05:02:35 --> mysqli_sql_exception: Unknown column 'rombel.id_jenjang' in 'where clause' in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `rombel`...', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rombel`...')
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rombel`...')
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `rombel`...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Rombel_model.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Views/admin/nilai/index.php(36): App\Models\Rombel_model->all_jenjang_kelas('2', '1')
+#6 /Applications/MAMP/htdocs/tk/system/View/View.php(213): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tk/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /Applications/MAMP/htdocs/tk/system/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/ind...', Array, true)
+#9 /Applications/MAMP/htdocs/tk/app/Views/admin/layout/wrapper.php(13): view('admin/nilai/ind...')
+#10 /Applications/MAMP/htdocs/tk/system/View/View.php(213): include('/Applications/M...')
+#11 /Applications/MAMP/htdocs/tk/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 /Applications/MAMP/htdocs/tk/system/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#13 /Applications/MAMP/htdocs/tk/app/Controllers/Admin/Nilai.php(45): view('admin/layout/wr...', Array)
+#14 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+#15 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+#16 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#18 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#19 {main}
+CRITICAL - 2022-11-14 05:02:35 --> Unknown column 'rombel.id_jenjang' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`, `jenjang`.`nama_jenjang`, `jenjang`.`keterangan` AS `keterangan_jenjang`, `jenjang`.`id_jenjang`, `staff_rombel`.`status_guru_rombel`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+JOIN `jenjang` ON `jenjang`.`id_jenjang` = `kelas`.`id_jenjang`
+JOIN `staff_rombel` ON `staff_rombel`.`id_rombel` = `rombel`.`id_rombel`
+WHERE `rombel`.`id_tahun` = \'2\'
+AND `rombel`.`id_jenjang` = \'1\'
+GROUP BY `kelas`.`id_kelas`
+ORDER BY `jenjang`.`urutan` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`, `jenjang`.`nama_jenjang`, `jenjang`.`keterangan` AS `keterangan_jenjang`, `jenjang`.`id_jenjang`, `staff_rombel`.`status_guru_rombel`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+JOIN `jenjang` ON `jenjang`.`id_jenjang` = `kelas`.`id_jenjang`
+JOIN `staff_rombel` ON `staff_rombel`.`id_rombel` = `rombel`.`id_rombel`
+WHERE `rombel`.`id_tahun` = \'2\'
+AND `rombel`.`id_jenjang` = \'1\'
+GROUP BY `kelas`.`id_kelas`
+ORDER BY `jenjang`.`urutan` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`, `jenjang`.`nama_jenjang`, `jenjang`.`keterangan` AS `keterangan_jenjang`, `jenjang`.`id_jenjang`, `staff_rombel`.`status_guru_rombel`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+JOIN `jenjang` ON `jenjang`.`id_jenjang` = `kelas`.`id_jenjang`
+JOIN `staff_rombel` ON `staff_rombel`.`id_rombel` = `rombel`.`id_rombel`
+WHERE `rombel`.`id_tahun` = \'2\'
+AND `rombel`.`id_jenjang` = \'1\'
+GROUP BY `kelas`.`id_kelas`
+ORDER BY `jenjang`.`urutan` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`, `jenjang`.`nama_jenjang`, `jenjang`.`keterangan` AS `keterangan_jenjang`, `jenjang`.`id_jenjang`, `staff_rombel`.`status_guru_rombel`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+JOIN `jenjang` ON `jenjang`.`id_jenjang` = `kelas`.`id_jenjang`
+JOIN `staff_rombel` ON `staff_rombel`.`id_rombel` = `rombel`.`id_rombel`
+WHERE `rombel`.`id_tahun` = :rombel.id_tahun:
+AND `rombel`.`id_jenjang` = :rombel.id_jenjang:
+GROUP BY `kelas`.`id_kelas`
+ORDER BY `jenjang`.`urutan` ASC', [...], false)
+ 5 APPPATH/Models/Rombel_model.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Views/admin/nilai/index.php(36): App\Models\Rombel_model->all_jenjang_kelas('2', '1')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+10 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+11 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+12 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+14 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+15 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+16 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+17 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+19 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:06:57 --> Trying to get property 'id_jenjang' of non-object
+in APPPATH/Views/admin/nilai/index.php on line 62.
+ 1 APPPATH/Views/admin/nilai/index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_jenjang\' of non-object', 'APPPATH/Views/admin/nilai/index.php', 62, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:08:10 --> Trying to get property 'id_jenjang' of non-object
+in APPPATH/Views/admin/nilai/index.php on line 62.
+ 1 APPPATH/Views/admin/nilai/index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_jenjang\' of non-object', 'APPPATH/Views/admin/nilai/index.php', 62, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:08:53 --> Trying to get property 'id_jenjang' of non-object
+in APPPATH/Views/admin/nilai/index.php on line 63.
+ 1 APPPATH/Views/admin/nilai/index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_jenjang\' of non-object', 'APPPATH/Views/admin/nilai/index.php', 63, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:09:31 --> Undefined variable: tahun_ajaran
+in APPPATH/Views/admin/nilai/index.php on line 74.
+ 1 APPPATH/Views/admin/nilai/index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tahun_ajaran', 'APPPATH/Views/admin/nilai/index.php', 74, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:11:58 --> Undefined variable: tahun_ajaran
+in APPPATH/Views/admin/nilai/index.php on line 71.
+ 1 APPPATH/Views/admin/nilai/index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tahun_ajaran', 'APPPATH/Views/admin/nilai/index.php', 71, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:12:14 --> Undefined variable: i
+in APPPATH/Views/admin/nilai/index.php on line 76.
+ 1 APPPATH/Views/admin/nilai/index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH/Views/admin/nilai/index.php', 76, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 05:12:26 --> Undefined variable: kelasnya
+in APPPATH/Views/admin/nilai/index.php on line 77.
+ 1 APPPATH/Views/admin/nilai/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelasnya', 'APPPATH/Views/admin/nilai/index.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:05:20 --> Cannot redeclare App\Models\Rombel_model::kelas()
+in APPPATH/Models/Rombel_model.php on line 234.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-14 06:05:59 --> Undefined variable: rombel_jenjang
+in APPPATH/Controllers/Admin/Nilai.php on line 42.
+ 1 APPPATH/Controllers/Admin/Nilai.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rombel_jenjang', 'APPPATH/Controllers/Admin/Nilai.php', 42, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:06:17 --> Undefined variable: rombel_jenjang
+in APPPATH/Views/admin/nilai/index.php on line 36.
+ 1 APPPATH/Views/admin/nilai/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rombel_jenjang', 'APPPATH/Views/admin/nilai/index.php', 36, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:13:33 --> Undefined variable: kelasnya
+in APPPATH/Views/admin/nilai/index.php on line 55.
+ 1 APPPATH/Views/admin/nilai/index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelasnya', 'APPPATH/Views/admin/nilai/index.php', 55, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(44): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:20:03 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:20:54 --> Undefined variable: check
+in APPPATH/Views/admin/nilai/index.php on line 72.
+ 1 APPPATH/Views/admin/nilai/index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: check', 'APPPATH/Views/admin/nilai/index.php', 72, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/nilai/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/nilai/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/nilai/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Nilai.php(44): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:28:01 --> Undefined variable: rombel_akhir
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rombel_akhir', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', '1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:28:02 --> Trying to get property 'nama_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:28:13 --> Trying to get property 'nama_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:28:23 --> Trying to get property 'nama_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:29:58 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:37:35 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:38:14 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:38:50 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:39:53 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:43:19 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:45:55 --> Undefined variable: rombel_akhir
+in APPPATH/Controllers/Admin/Nilai.php on line 63.
+ 1 APPPATH/Controllers/Admin/Nilai.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rombel_akhir', 'APPPATH/Controllers/Admin/Nilai.php', 63, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', '1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:45:55 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:46:19 --> Undefined variable: rombel_akhir
+in APPPATH/Controllers/Admin/Nilai.php on line 63.
+ 1 APPPATH/Controllers/Admin/Nilai.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rombel_akhir', 'APPPATH/Controllers/Admin/Nilai.php', 63, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', '1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:46:19 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:46:35 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:46:58 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 06:47:26 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-14 19:08:53 --> Trying to get property 'id_kelas' of non-object
+in APPPATH/Controllers/Admin/Nilai.php on line 60.
+ 1 APPPATH/Controllers/Admin/Nilai.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kelas\' of non-object', 'APPPATH/Controllers/Admin/Nilai.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Nilai->kelas('2', 'ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

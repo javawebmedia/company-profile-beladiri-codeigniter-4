@@ -1,0 +1,253 @@
+.ripple-animation {
+  animation-duration: var(--ripple-ani-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: ripple;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.movingX {
+  animation: movingX 8s linear infinite;
+}
+@keyframes movingX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.jump {
+  animation: jumpAni 7s linear infinite;
+}
+@keyframes jumpAni {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.jump-reverse {
+  animation: jumpReverseAni 7s linear infinite;
+}
+@keyframes jumpReverseAni {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.spin {
+  animation: spin 15s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+
+// This is for Progress bar animation also has a js code
+@keyframes animate-positive {
+  0% {
+    width: 0; 
+  } 
+}
+
+
+.scalein.as-animated {
+  --animation-name: scalein;
+}
+
+.slidetopleft.as-animated {
+  --animation-name: slidetopleft;
+}
+
+.slidebottomright.as-animated {
+  --animation-name: slidebottomright;
+}
+
+.slideinleft.as-animated {
+  --animation-name: slideinleft;
+}
+
+.slideinright.as-animated {
+  --animation-name: slideinright;
+}
+
+.slideinup.as-animated {
+  --animation-name: slideinup;
+}
+
+.slideindown.as-animated {
+  --animation-name: slideindown;
+}
+.rollinleft.as-animated {
+  --animation-name: rollinleft;
+}
+.rollinright.as-animated {
+  --animation-name: rollinright;
+}
+
+
+.scalein,
+.slidetopleft,
+.slidebottomright,
+.slideinleft,
+.slideinright,
+.slideindown,
+.slideinup,
+.rollinleft,
+.rollinright {
+  opacity: 0;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-name: var(--animation-name);
+}
+
+.as-animated {
+  opacity: 1;
+}
+
+@keyframes slideinup {
+  0% {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideinright {
+  0% {
+    opacity: 0;
+    transform: translateX(70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideindown {
+  0% {
+    opacity: 0;
+    transform: translateY(-70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slidebottomright {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) translateY(100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes slidetopleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) translateY(-100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes scalein {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  
+  100% {
+    transform: scale(1);
+
+  }
+}
+
+@keyframes rollinleft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100%) rotate(-120deg);
+  }
+  to {
+      transform: translateX(0) rotate(0deg);
+  }
+}
+@keyframes rollinright {
+  0% {
+      opacity: 0;
+      transform: translateX(100%) rotate(120deg);
+  }
+  to {
+      transform: translateX(0) rotate(0deg);
+  }
+}

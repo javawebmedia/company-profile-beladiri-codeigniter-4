@@ -1,0 +1,1948 @@
+CRITICAL - 2022-10-24 09:31:46 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 18.
+ 1 APPPATH/Views/admin/rombel/anggota.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:31:51 --> Too few arguments to function App\Controllers\Admin\Rombel::anggota(), 0 passed in /Applications/MAMP/htdocs/tk/system/CodeIgniter.php on line 907 and exactly 1 expected
+in APPPATH/Controllers/Admin/Rombel.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:31:56 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 18.
+ 1 APPPATH/Views/admin/rombel/anggota.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:32:44 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 18.
+ 1 APPPATH/Views/admin/rombel/anggota.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:33:42 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 18.
+ 1 APPPATH/Views/admin/rombel/anggota.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:33:45 --> Too few arguments to function App\Controllers\Admin\Rombel::anggota(), 0 passed in /Applications/MAMP/htdocs/tk/system/CodeIgniter.php on line 907 and exactly 1 expected
+in APPPATH/Controllers/Admin/Rombel.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:36:42 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 17.
+ 1 APPPATH/Views/admin/rombel/anggota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(94): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-24 09:41:26 --> mysqli_sql_exception: Unknown column 'staff.nama_staff' in 'field list' in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `staff_r...', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_r...')
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_r...')
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `staff_r...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Staff_rombel_model.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Admin/Rombel.php(74): App\Models\Staff_rombel_model->rombel('23')
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('23')
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2022-10-24 09:41:26 --> Unknown column 'staff.nama_staff' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = \'23\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = \'23\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = \'23\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = :staff_rombel.id_rombel:
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC', [...], false)
+ 5 APPPATH/Models/Staff_rombel_model.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Rombel.php(74): App\Models\Staff_rombel_model->rombel('23')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('23')
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-24 09:41:26 --> mysqli_sql_exception: Unknown column 'staff.nama_staff' in 'field list' in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `staff_r...', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_r...')
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_r...')
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `staff_r...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Staff_rombel_model.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Admin/Rombel.php(74): App\Models\Staff_rombel_model->rombel('ajax.php')
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2022-10-24 09:41:26 --> Unknown column 'staff.nama_staff' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = \'ajax.php\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = \'ajax.php\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = \'ajax.php\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `staff_rombel`.*, `staff`.`nama_staff`, `staff`.`tempat_lahir`, `staff`.`tanggal_lahir`, `staff`.`jenis_kelamin`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `staff_rombel`.`id_rombel` = :staff_rombel.id_rombel:
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC', [...], false)
+ 5 APPPATH/Models/Staff_rombel_model.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Rombel.php(74): App\Models\Staff_rombel_model->rombel('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:41:48 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 17.
+ 1 APPPATH/Views/admin/rombel/anggota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:43:20 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 17.
+ 1 APPPATH/Views/admin/rombel/anggota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:43:35 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 17.
+ 1 APPPATH/Views/admin/rombel/anggota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:47:59 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 17.
+ 1 APPPATH/Views/admin/rombel/anggota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:48:07 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 17.
+ 1 APPPATH/Views/admin/rombel/anggota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:49:34 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:51:05 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:51:43 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:52:01 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:52:46 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:53:18 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:53:32 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:55:42 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:55:46 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:55:52 --> Undefined variable: m_siswa_rombel
+in APPPATH/Controllers/Admin/Rombel.php on line 86.
+ 1 APPPATH/Controllers/Admin/Rombel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: m_siswa_rombel', 'APPPATH/Controllers/Admin/Rombel.php', 86, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('23')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:55:53 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(99): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:57:14 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(100): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:57:18 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(100): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:57:30 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(100): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:57:48 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(100): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:58:16 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:58:19 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:58:23 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 09:58:27 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 19.
+ 1 APPPATH/Views/admin/rombel/anggota.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 19, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:00:02 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 26.
+ 1 APPPATH/Views/admin/rombel/anggota.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:00:11 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 26.
+ 1 APPPATH/Views/admin/rombel/anggota.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:00:43 --> Trying to get property 'nama_kelas' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kelas\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:01:03 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:01:15 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:01:33 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:03:33 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-24 10:23:28 --> mysqli_sql_exception: Column 'id_tahun' in where clause is ambiguous in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `staff_r...', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_r...')
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_r...')
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `staff_r...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Staff_rombel_model.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Views/admin/rombel/index.php(69): App\Models\Staff_rombel_model->total_rombel('2', '1', 'Wali')
+#6 /Applications/MAMP/htdocs/tk/system/View/View.php(213): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tk/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /Applications/MAMP/htdocs/tk/system/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/in...', Array, true)
+#9 /Applications/MAMP/htdocs/tk/app/Views/admin/layout/wrapper.php(13): view('admin/rombel/in...')
+#10 /Applications/MAMP/htdocs/tk/system/View/View.php(213): include('/Applications/M...')
+#11 /Applications/MAMP/htdocs/tk/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 /Applications/MAMP/htdocs/tk/system/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#13 /Applications/MAMP/htdocs/tk/app/Controllers/Admin/Rombel.php(57): view('admin/layout/wr...', Array)
+#14 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+#15 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+#16 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#18 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#19 {main}
+CRITICAL - 2022-10-24 10:23:28 --> Column 'id_tahun' in where clause is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `staff_rombel`.*, `staff`.`nama`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `id_tahun` = \'2\'
+AND `id_kelas` = \'1\'
+AND `status_guru_rombel` = \'Wali\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_rombel`.*, `staff`.`nama`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `id_tahun` = \'2\'
+AND `id_kelas` = \'1\'
+AND `status_guru_rombel` = \'Wali\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_rombel`.*, `staff`.`nama`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `id_tahun` = \'2\'
+AND `id_kelas` = \'1\'
+AND `status_guru_rombel` = \'Wali\'
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `staff_rombel`.*, `staff`.`nama`, `kelas`.`nama_kelas`, `tahun`.`nama_tahun`, `rombel`.`status_rombel`
+FROM `staff_rombel`
+LEFT JOIN `staff` ON `staff`.`id_staff` = `staff_rombel`.`id_staff`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `staff_rombel`.`id_kelas`
+LEFT JOIN `tahun` ON `tahun`.`id_tahun` = `staff_rombel`.`id_tahun`
+LEFT JOIN `rombel` ON `rombel`.`id_rombel` = `staff_rombel`.`id_rombel`
+WHERE `id_tahun` = :id_tahun:
+AND `id_kelas` = :id_kelas:
+AND `status_guru_rombel` = :status_guru_rombel:
+ORDER BY `staff_rombel`.`id_staff_rombel` DESC', [...], false)
+ 5 APPPATH/Models/Staff_rombel_model.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Views/admin/rombel/index.php(69): App\Models\Staff_rombel_model->total_rombel('2', '1', 'Wali')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/index.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/index', [], true)
+10 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/index')
+11 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+12 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+14 APPPATH/Controllers/Admin/Rombel.php(57): view('admin/layout/wrapper', [...])
+15 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+16 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+17 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+19 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:24:23 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:24:30 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:24:36 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:26:27 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:26:42 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:37:22 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 10:37:42 --> Trying to get property 'nama_siswa' of non-object
+in APPPATH/Controllers/Admin/Siswa.php on line 479.
+ 1 APPPATH/Controllers/Admin/Siswa.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_siswa\' of non-object', 'APPPATH/Controllers/Admin/Siswa.php', 479, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Siswa->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siswa))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:05:15 --> Undefined variable: sekolah
+in APPPATH/Views/admin/rombel/cetak.php on line 26.
+ 1 APPPATH/Views/admin/rombel/cetak.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sekolah', 'APPPATH/Views/admin/rombel/cetak.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('23')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:05:15 --> Undefined variable: sekolah
+in APPPATH/Views/admin/rombel/cetak.php on line 26.
+ 1 APPPATH/Views/admin/rombel/cetak.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sekolah', 'APPPATH/Views/admin/rombel/cetak.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:07:30 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:08:13 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:08:28 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:09:44 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:10:29 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:12:33 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:12:38 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:13:37 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:14:26 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:15:10 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:15:23 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:15:42 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:16:23 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:16:29 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(288): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->cetak('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:16:35 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:18:24 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/cetak.php on line 42.
+ 1 APPPATH/Views/admin/rombel/cetak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/cetak.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Rombel.php(321): view('admin/rombel/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->unduh('ajax.php')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:26:24 --> Undefined property: stdClass::$nisN
+in APPPATH/Views/admin/rombel/anggota.php on line 109.
+ 1 APPPATH/Views/admin/rombel/anggota.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nisN', 'APPPATH/Views/admin/rombel/anggota.php', 109, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('23')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:26:25 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:26:34 --> Trying to get property 'nama_tahun' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 12.
+ 1 APPPATH/Views/admin/rombel/anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tahun\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:28:48 --> Undefined variable: check
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: check', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('23')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:28:49 --> Undefined variable: check
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: check', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:29:17 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:29:51 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:30:08 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:44:20 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:44:30 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 11:44:41 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 12:33:53 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 12:36:14 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 12:36:49 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 12:36:53 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 2.
+ 1 APPPATH/Views/admin/rombel/anggota.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(101): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 12:58:04 --> Class 'App\Models\Elemen_model' not found
+in APPPATH/Controllers/Admin/Elemen.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:00:09 --> Invalid file: admin/elemen/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/elemen/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/index', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Elemen.php(38): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:30:01 --> Invalid file: admin/elemen/kelola.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/elemen/kelola.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Elemen.php(54): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:30:01 --> Invalid file: admin/elemen/kelola.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/elemen/kelola.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Elemen.php(54): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:31:14 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:33:25 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Jenjang.php on line 68.
+ 1 APPPATH/Controllers/Admin/Jenjang.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Jenjang.php', 68, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Jenjang->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jenjang))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:36:11 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:36:52 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:40:31 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:41:07 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:42:08 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:43:04 --> Undefined variable: jenjang
+in APPPATH/Views/admin/elemen/kelola.php on line 11.
+ 1 APPPATH/Views/admin/elemen/kelola.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jenjang', 'APPPATH/Views/admin/elemen/kelola.php', 11, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/elemen/kelola.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Elemen.php(56): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:43:05 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:43:23 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:43:48 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:43:57 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 52.
+ 1 APPPATH/Controllers/Admin/Elemen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:52:44 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 53.
+ 1 APPPATH/Controllers/Admin/Elemen.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:53:05 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 53.
+ 1 APPPATH/Controllers/Admin/Elemen.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 13:58:19 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 54.
+ 1 APPPATH/Controllers/Admin/Elemen.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 54, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:00:15 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:00:31 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:02:20 --> Undefined variable: id_elemen
+in APPPATH/Models/Elemen_model.php on line 36.
+ 1 APPPATH/Models/Elemen_model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_elemen', 'APPPATH/Models/Elemen_model.php', 36, [...])
+ 2 APPPATH/Controllers/Admin/Elemen.php(33): App\Models\Elemen_model->jenjang('1')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:02:20 --> Undefined variable: id_elemen
+in APPPATH/Models/Elemen_model.php on line 36.
+ 1 APPPATH/Models/Elemen_model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_elemen', 'APPPATH/Models/Elemen_model.php', 36, [...])
+ 2 APPPATH/Controllers/Admin/Elemen.php(33): App\Models\Elemen_model->jenjang('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:02:31 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:03:00 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:04:19 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:04:37 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:05:31 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:05:41 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:05:49 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:06:17 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:07:11 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:07:51 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:08:07 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:08:43 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:08:51 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:18:22 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 55.
+ 1 APPPATH/Controllers/Admin/Elemen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:24:14 --> Class 'App\Controllers\Admin\Deskripsi_model' not found
+in APPPATH/Controllers/Admin/Elemen.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:24:15 --> Class 'App\Controllers\Admin\Deskripsi_model' not found
+in APPPATH/Controllers/Admin/Elemen.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:24:34 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:24:56 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:25:17 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:28:01 --> Undefined variable: id_elemen
+in APPPATH/Views/admin/elemen/kelola.php on line 39.
+ 1 APPPATH/Views/admin/elemen/kelola.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_elemen', 'APPPATH/Views/admin/elemen/kelola.php', 39, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/elemen/kelola.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Elemen.php(77): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:28:02 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:28:14 --> Trying to get property 'total' of non-object
+in APPPATH/Views/admin/elemen/kelola.php on line 43.
+ 1 APPPATH/Views/admin/elemen/kelola.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'total\' of non-object', 'APPPATH/Views/admin/elemen/kelola.php', 43, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/elemen/kelola.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Elemen.php(77): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:28:14 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:28:54 --> Trying to get property 'total' of non-object
+in APPPATH/Views/admin/elemen/kelola.php on line 43.
+ 1 APPPATH/Views/admin/elemen/kelola.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'total\' of non-object', 'APPPATH/Views/admin/elemen/kelola.php', 43, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/elemen/kelola.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Elemen.php(77): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:28:54 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:29:13 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:29:35 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:31:39 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:32:50 --> syntax error, unexpected end of file
+in APPPATH/Views/admin/elemen/kelola.php on line 72.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Elemen.php(77): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:32:50 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:33:05 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:33:35 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:36:14 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:36:49 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:37:31 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:38:37 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:38:44 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:39:13 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:39:40 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:39:52 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:40:14 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:41:26 --> syntax error, unexpected end of file
+in APPPATH/Views/admin/elemen/kelola.php on line 70.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/elemen/kelola', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/elemen/kelola')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Elemen.php(77): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('1')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:41:26 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:41:31 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:44:44 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 14:45:09 --> Trying to get property 'nama_jenjang' of non-object
+in APPPATH/Controllers/Admin/Elemen.php on line 71.
+ 1 APPPATH/Controllers/Admin/Elemen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_jenjang\' of non-object', 'APPPATH/Controllers/Admin/Elemen.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Elemen->kelola('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Elemen))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

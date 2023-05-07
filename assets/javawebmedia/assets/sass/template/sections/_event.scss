@@ -1,0 +1,142 @@
+/* Event 1 ---------------------------------- */
+.event-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+    p, span, a {
+        margin-bottom: 0;
+        font-size: 14px;
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+.event-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .avater {
+        max-width: 45px;
+        border-radius: 999px;
+        overflow: hidden;
+    }
+    .author-name {
+        font-size: 14px;
+        font-weight: 500;
+        color: $title-color;
+    }
+}
+.event-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 24px;
+    position: relative;
+    padding: 30px 15px 30px 0;
+    border-radius: 10px;
+    background-color: $white-color;
+    z-index: 2;
+    &:before {
+        content: "";
+        height: 100%;
+        width: calc(100% - 75px);
+        position: absolute;
+        top: 0;
+        left: 75px;
+        border: 1px solid $border-color;
+        border-radius: inherit;
+        z-index: -1;
+    }
+    &_img {
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+            transition: 0.4s ease-in-out;
+        }
+    }
+    .event-meta {
+        margin-top: -0.3em;
+        margin-bottom: 10px;
+    }
+    &_title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        a {
+            color: inherit;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+    &_bottom {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px 25px;
+    }
+    .as-btn {
+        padding: 15.5px 27px;
+    }
+    &:hover {
+        .event-card {
+            &_img {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+@include sm {
+    .event-card {
+        padding: 20px 15px 20px 0;
+        gap: 20px;
+    }
+}
+
+@include xs {
+    .event-card {
+        flex-wrap: wrap;
+        padding: 0;
+        &::before {
+            left: 0;
+            top: 35px;
+            width: 100%;
+            height: calc(100% - 35px);
+        }
+        &_content {
+            padding: 0 15px 15px 15px;
+        }
+        &_title {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Event Details --------------------------------- */
+.event-details {
+    .event-img {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 40px;
+        img {
+            min-height: 300px;
+            object-fit: cover;
+        }
+    }
+    .checklist {
+        ul {
+            li {
+                font-weight: 400;
+                font-family: $body-font;
+                color: $body-color;
+                &:before {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

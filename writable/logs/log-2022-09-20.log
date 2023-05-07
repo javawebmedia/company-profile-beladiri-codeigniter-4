@@ -1,0 +1,548 @@
+CRITICAL - 2022-09-20 19:33:50 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Produk.php on line 66.
+ 1 APPPATH/Controllers/Produk.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Produk.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Produk->belajar('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:33:50 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Produk.php on line 66.
+ 1 APPPATH/Controllers/Produk.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Produk.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Produk->belajar('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:33:50 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Produk.php on line 66.
+ 1 APPPATH/Controllers/Produk.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Produk.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Produk->belajar('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:33:50 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Produk.php on line 66.
+ 1 APPPATH/Controllers/Produk.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Produk.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Produk->belajar('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:33:50 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Produk.php on line 66.
+ 1 APPPATH/Controllers/Produk.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Produk.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Produk->belajar('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:36:33 --> Undefined variable: pager_links
+in APPPATH/Controllers/Admin/Produk.php on line 56.
+ 1 APPPATH/Controllers/Admin/Produk.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager_links', 'APPPATH/Controllers/Admin/Produk.php', 56, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:36:34 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:36:44 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:37:12 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:37:26 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:38:16 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:38:38 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:41:01 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 53.
+ 1 APPPATH/Controllers/Admin/Produk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 53, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:42:20 --> Call to undefined method App\Models\Produk_model::produk
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/Produk.php(54): CodeIgniter\Model->__call('produk', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:42:20 --> Call to undefined method App\Models\Produk_model::produk
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/Produk.php(54): CodeIgniter\Model->__call('produk', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:42:49 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 56.
+ 1 APPPATH/Controllers/Admin/Produk.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 56, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:43:20 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 56.
+ 1 APPPATH/Controllers/Admin/Produk.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 56, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:44:23 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:45:54 --> Call to undefined function validation_errors()
+in APPPATH/Views/admin/produk/tambah_kurikulum.php on line 21.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/tambah_kurikulum', [], true)
+ 4 APPPATH/Views/admin/produk/kurikulum.php(26): view('admin/produk/tambah_kurikulum')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/kurikulum.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/kurikulum', [], true)
+ 8 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/produk/kurikulum')
+ 9 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+10 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+12 APPPATH/Controllers/Admin/Produk.php(64): view('admin/layout/wrapper', [...])
+13 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+14 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+15 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+17 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:45:54 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:46:22 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:46:39 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:47:13 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:47:23 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:47:55 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:50:32 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:53:55 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 19:57:09 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 57.
+ 1 APPPATH/Controllers/Admin/Produk.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:03:03 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:03:25 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:04:15 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:07:55 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:08:02 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:08:15 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:08:42 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:09:15 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:11:15 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:13:12 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 82.
+ 1 APPPATH/Controllers/Admin/Produk.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:15:38 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:15:51 --> Argument 1 passed to url_title() must be of the type string, null given, called in /Applications/MAMP/htdocs/jw/app/Controllers/Admin/Produk.php on line 81
+in SYSTEMPATH/Helpers/url_helper.php on line 475.
+ 1 APPPATH/Controllers/Admin/Produk.php(81): url_title(null, '-', true)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:15:51 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:16:41 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-09-20 20:16:53 --> mysqli_sql_exception: Column 'status_sub_kurikulum' cannot be null in /Applications/MAMP/htdocs/jw/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/jw/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /Applications/MAMP/htdocs/jw/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /Applications/MAMP/htdocs/jw/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /Applications/MAMP/htdocs/jw/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /Applications/MAMP/htdocs/jw/app/Models/Kurikulum_produk_model.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/MAMP/htdocs/jw/app/Controllers/Admin/Produk.php(93): App\Models\Kurikulum_produk_model->tambah_sub(Array)
+#6 /Applications/MAMP/htdocs/jw/system/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+#7 /Applications/MAMP/htdocs/jw/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+#8 /Applications/MAMP/htdocs/jw/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/jw/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/jw/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2022-09-20 20:16:53 --> Column 'status_sub_kurikulum' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sub_kurikulum` (`id_user`, `id_produk`, `id_sub_kurikulum`, `slug_sub_kurikulum`, `nama_sub_kurikulum`, `keterangan`, `status_sub_kurikulum`, `urutan`, `video`, `tanggal_post`) VALUES (\'1\', \'4\', NULL, \'fundamental-html-css-kelas-webdev-codeigniter\', \'Fundamental HTML CSS\', \'\', NULL, \'2\', \'\', \'2022-09-20 20:16:53\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sub_kurikulum` (`id_user`, `id_produk`, `id_sub_kurikulum`, `slug_sub_kurikulum`, `nama_sub_kurikulum`, `keterangan`, `status_sub_kurikulum`, `urutan`, `video`, `tanggal_post`) VALUES (\'1\', \'4\', NULL, \'fundamental-html-css-kelas-webdev-codeigniter\', \'Fundamental HTML CSS\', \'\', NULL, \'2\', \'\', \'2022-09-20 20:16:53\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sub_kurikulum` (`id_user`, `id_produk`, `id_sub_kurikulum`, `slug_sub_kurikulum`, `nama_sub_kurikulum`, `keterangan`, `status_sub_kurikulum`, `urutan`, `video`, `tanggal_post`) VALUES (\'1\', \'4\', NULL, \'fundamental-html-css-kelas-webdev-codeigniter\', \'Fundamental HTML CSS\', \'\', NULL, \'2\', \'\', \'2022-09-20 20:16:53\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kurikulum` (`id_user`, `id_produk`, `id_sub_kurikulum`, `slug_sub_kurikulum`, `nama_sub_kurikulum`, `keterangan`, `status_sub_kurikulum`, `urutan`, `video`, `tanggal_post`) VALUES (:id_user:, :id_produk:, :id_sub_kurikulum:, :slug_sub_kurikulum:, :nama_sub_kurikulum:, :keterangan:, :status_sub_kurikulum:, :urutan:, :video:, :tanggal_post:)', [...], false)
+ 5 APPPATH/Models/Kurikulum_produk_model.php(84): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Admin/Produk.php(93): App\Models\Kurikulum_produk_model->tambah_sub([...])
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:16:53 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:17:39 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:17:47 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:18:31 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:21:48 --> Trying to get property 'id_kurikulum_produk' of non-object
+in APPPATH/Views/admin/produk/tambah_sub_kurikulum.php on line 2.
+ 1 APPPATH/Views/admin/produk/tambah_sub_kurikulum.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kurikulum_produk\' of non-object', 'APPPATH/Views/admin/produk/tambah_sub_kurikulum.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/tambah_sub_kurikulum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/tambah_sub_kurikulum', [], true)
+ 5 APPPATH/Views/admin/produk/kurikulum.php(47): view('admin/produk/tambah_sub_kurikulum')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/kurikulum.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/kurikulum', [], true)
+ 9 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/produk/kurikulum')
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+13 APPPATH/Controllers/Admin/Produk.php(109): view('admin/layout/wrapper', [...])
+14 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+15 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+16 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+18 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:21:48 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:22:41 --> Trying to get property 'id_kurikulum_produk' of non-object
+in APPPATH/Views/admin/produk/tambah_sub_kurikulum.php on line 2.
+ 1 APPPATH/Views/admin/produk/tambah_sub_kurikulum.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kurikulum_produk\' of non-object', 'APPPATH/Views/admin/produk/tambah_sub_kurikulum.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/tambah_sub_kurikulum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/tambah_sub_kurikulum', [], true)
+ 5 APPPATH/Views/admin/produk/kurikulum.php(47): view('admin/produk/tambah_sub_kurikulum')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/kurikulum.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/kurikulum', [], true)
+ 9 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/produk/kurikulum')
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+13 APPPATH/Controllers/Admin/Produk.php(109): view('admin/layout/wrapper', [...])
+14 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+15 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+16 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+18 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:22:42 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:23:41 --> Trying to get property 'id_kurikulum_produk' of non-object
+in APPPATH/Views/admin/produk/tambah_sub_kurikulum.php on line 2.
+ 1 APPPATH/Views/admin/produk/tambah_sub_kurikulum.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kurikulum_produk\' of non-object', 'APPPATH/Views/admin/produk/tambah_sub_kurikulum.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/tambah_sub_kurikulum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/tambah_sub_kurikulum', [], true)
+ 5 APPPATH/Views/admin/produk/kurikulum.php(47): view('admin/produk/tambah_sub_kurikulum')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/kurikulum.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/kurikulum', [], true)
+ 9 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/produk/kurikulum')
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+13 APPPATH/Controllers/Admin/Produk.php(109): view('admin/layout/wrapper', [...])
+14 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+15 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+16 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+18 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:23:42 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:24:10 --> include(tambah_sub_kurikulum): failed to open stream: No such file or directory
+in APPPATH/Views/admin/produk/kurikulum.php on line 47.
+ 1 APPPATH/Views/admin/produk/kurikulum.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(tambah_sub_kurikulum): failed to open stream: No such file or directory', 'APPPATH/Views/admin/produk/kurikulum.php', 47, [...])
+ 2 APPPATH/Views/admin/produk/kurikulum.php(47): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/kurikulum.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/kurikulum', [], true)
+ 6 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/produk/kurikulum')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+10 APPPATH/Controllers/Admin/Produk.php(109): view('admin/layout/wrapper', [...])
+11 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+12 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:24:11 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:24:28 --> Undefined property: stdClass::$nama_kurikulum_produuk
+in APPPATH/Views/admin/produk/tambah_sub_kurikulum.php on line 44.
+ 1 APPPATH/Views/admin/produk/tambah_sub_kurikulum.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama_kurikulum_produuk', 'APPPATH/Views/admin/produk/tambah_sub_kurikulum.php', 44, [...])
+ 2 APPPATH/Views/admin/produk/kurikulum.php(47): include('APPPATH/Views/admin/produk/tambah_sub_kurikulum.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/produk/kurikulum.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/produk/kurikulum', [], true)
+ 6 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/produk/kurikulum')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+10 APPPATH/Controllers/Admin/Produk.php(109): view('admin/layout/wrapper', [...])
+11 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('4')
+12 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:24:28 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-20 20:24:45 --> Trying to get property 'nama_produk' of non-object
+in APPPATH/Controllers/Admin/Produk.php on line 101.
+ 1 APPPATH/Controllers/Admin/Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_produk\' of non-object', 'APPPATH/Controllers/Admin/Produk.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Produk->kurikulum('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

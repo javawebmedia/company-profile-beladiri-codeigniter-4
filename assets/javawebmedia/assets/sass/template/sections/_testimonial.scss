@@ -1,0 +1,308 @@
+/* Testimonial 1 ---------------------------------- */
+.testi-card {
+    &-slide {
+        .slick-arrow {
+            --pos-x: -164px;
+            top: 111%;
+            margin-top: 0;
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    &-tab {
+        border-bottom: 2px solid #284A75;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        display: flex;
+        gap: 20px;
+        .tab-btn {
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            border-radius: 999px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .indicator {
+            position: absolute;
+            bottom: -2px;
+            left: var(--pos-x);
+            height: 2px;
+            width: var(--width-set);
+            background-color: $theme-color;
+            transition: 0.6s ease;
+        }
+    }
+    &_name {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 4px;
+        color: $white-color;
+    }
+    &_desig {
+        margin-bottom: -0.491em;
+        font-weight: 500;
+        display: block;
+        color: $theme-color;
+    }
+    &_text {
+        font-size: 20px;
+        margin-top: -0.4em;
+        margin-bottom: 25px;
+        color: $white-color;
+    }
+}
+
+@include md {
+    .testi-card {
+        text-align: center;
+        &-tab {
+            margin-top: 50px;
+            gap: 15px;
+            justify-content: center;
+        }
+        &_text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+}
+@include sm {
+    .testi-card {
+        &-tab {
+            gap: 10px;
+        }
+        &_text {
+            font-size: 16px;
+        }
+    }
+}
+@include xs {
+    .testi-card {
+        &-tab {
+            gap: 5px;
+        }
+    }
+}
+
+/* Testimonial 2 ---------------------------------- */
+.testi-box { 
+    padding: 50px;
+    background-color: $smoke-color;
+    border-radius: 10px;
+    overflow: hidden;
+    &_content {
+        display: flex;
+        gap: 30px;
+    }
+    &_img {
+        min-width: 120px;
+        img {
+            border-radius: 10px;
+        }
+    }
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_name {
+        font-size: 24px;
+        margin-bottom: 3px;
+        margin-top: -0.24em;
+        font-weight: 500;
+    }
+    &_desig {
+        color: $theme-color;
+        margin-bottom: -0.45em;
+        display: block;
+    }
+    &_text {
+        font-size: 20px;
+        font-family: $title-font;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+    &_bottom {
+        margin-top: 40px;
+        padding-top: 40px;
+        border-top: 1px solid #DAE5F0;
+    }
+    &_review {
+        display: flex;
+        gap: 3px;
+        i {
+            font-size: 14px;
+            color: $theme-color;
+        }
+    }
+}
+
+@include lg {
+    .testi-box {
+        &_img {
+            min-width: 90px;
+        }
+    }
+}
+
+@include md {
+    .testi-box {
+        &_img {
+            min-width: 120px;
+        }
+    }
+}
+
+@include sm {
+    .testi-box {
+        padding: 40px 20px;
+        &_content {
+            gap: 25px;
+        }
+        &_bottom {
+            margin-top: 25px;
+            padding-top: 30px;
+        }
+        &_text {
+            font-size: 18px;
+        }
+    }
+}
+
+@include sm {
+    .testi-box {
+        &_content {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@include vxs {
+    .testi-box {
+        &_name {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        &_bottom {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+/* Testimonial 3 ---------------------------------- */
+.testi-grid {
+    background-color: transparent;
+    border: 2px solid #0B2950;
+    padding: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    @include md {
+        padding: 50px 20px;
+    }
+    &_name {
+        font-size: 24px;
+        margin-bottom: 3px;
+        margin-top: -0.24em;
+        font-weight: 500;
+        color: $white-color;
+    }
+    &_desig {
+        color: $theme-color;
+        margin-bottom: -0.45em;
+        display: block;
+    }
+    &_text {
+        font-size: 20px;
+        font-family: $title-font;
+        line-height: 1.5;
+        margin-bottom: -0.4em;
+        color: $light-color;
+    }
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: 1px dashed #29456A;
+    }
+    &_author {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    &_avater {
+        border-radius: 999px;
+        overflow: hidden;
+        width: 60px;
+    }
+    &_review {
+        display: flex;
+        gap: 3px;
+        i {
+            font-size: 14px;
+            color: $yellow-color;
+        }
+    }
+}
+
+.slick-center {
+    .testi-grid {
+        background-color: #092141;
+        border-color: #092141;
+    }
+}
+
+@include sm {
+    .testi-grid {
+        &_text {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .testi-grid {
+        &_name {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        &_avater {
+            width: 50px;
+        }
+        &_bottom {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    }
+}
+
+/* Testimonial 4 ---------------------------------- */
+.testi-grid-style2 {
+    background: $white-color;
+    border: 1px solid #ECF1F9;
+    box-shadow: 0px 9px 14px rgba(60, 79, 115, 0.04);
+    .testi-grid {
+        &_text {
+            color: $body-font;
+        }
+        &_name {
+            color: $title-color;
+        }
+        &_bottom {
+            border-color: #D0D7E3;
+        }
+    }
+}
+
+@include lg {
+    .testi-grid-style2 {
+        padding: 45px 20px;
+    }
+}

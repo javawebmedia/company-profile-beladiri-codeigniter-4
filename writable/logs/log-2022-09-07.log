@@ -1,0 +1,608 @@
+CRITICAL - 2022-09-07 00:01:43 --> Call to undefined method App\Models\Berita_model::links
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Views/admin/berita/index.php(6): CodeIgniter\Model->__call('links', [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/berita/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Berita.php(27): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:10:34 --> Undefined variable: pagination
+in APPPATH/Views/admin/berita/index.php on line 11.
+ 1 APPPATH/Views/admin/berita/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pagination', 'APPPATH/Views/admin/berita/index.php', 11, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/berita/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Berita.php(60): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->jenis_berita('Berita')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:10:35 --> Undefined variable: pagination
+in APPPATH/Views/admin/berita/index.php on line 11.
+ 1 APPPATH/Views/admin/berita/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pagination', 'APPPATH/Views/admin/berita/index.php', 11, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/berita/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/index')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Berita.php(60): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->jenis_berita('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:11:05 --> Trying to get property 'nama' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 90.
+ 1 APPPATH/Controllers/Admin/Berita.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 90, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->author('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:23:13 --> Invalid file: admin/berita/testing.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/berita/testing.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/testing', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/testing')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Berita.php(45): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:25:08 --> Trying to get property 'pager' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 42.
+ 1 APPPATH/Controllers/Admin/Berita.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'pager\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 42, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:29:41 --> Trying to get property 'total' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 40.
+ 1 APPPATH/Controllers/Admin/Berita.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'total\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 40, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:30:06 --> Undefined property: App\Controllers\Admin\Berita::$load
+in APPPATH/Controllers/Admin/Berita.php on line 41.
+ 1 APPPATH/Controllers/Admin/Berita.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Berita::$load', 'APPPATH/Controllers/Admin/Berita.php', 41, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:30:23 --> Trying to get property 'TOTAL' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 42.
+ 1 APPPATH/Controllers/Admin/Berita.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'TOTAL\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 42, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:30:39 --> Call to undefined method CodeIgniter\Pager\Pager::initialize()
+in APPPATH/Controllers/Admin/Berita.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:34:51 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Admin/Berita.php on line 47.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita/testing')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita/testing')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita/testing')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:34:52 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Admin/Berita.php on line 47.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita/ajax.php')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita/ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita/ajax.php')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:35:24 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Admin/Berita.php on line 47.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita/testing')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita/testing')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita/testing')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:35:25 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Admin/Berita.php on line 47.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita/ajax.php')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita/ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita/ajax.php')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:36:43 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Admin/Berita.php on line 47.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita/testing')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita/testing')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita/testing')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:36:44 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Admin/Berita.php on line 47.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/berita/ajax.php')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/berita/ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/berita/ajax.php')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:37:53 --> Undefined variable: pager_links
+in APPPATH/Views/admin/berita/testing.php on line 1.
+ 1 APPPATH/Views/admin/berita/testing.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager_links', 'APPPATH/Views/admin/berita/testing.php', 1, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/berita/testing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/testing', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/testing')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Berita.php(56): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:39:26 --> Call to undefined function <!-- DEBUG-VIEW START 1 SYSTEMPATH/Pager/Views/default_full.php -->
+
+<nav aria-label="Page navigation">
+	<ul class="pagination">
+		
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=1">
+					1				</a>
+			</li>
+					<li class="active">
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=2">
+					2				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=3">
+					3				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=4">
+					4				</a>
+			</li>
+		
+					<li>
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=5" aria-label="Next">
+					<span aria-hidden="true">Next</span>
+				</a>
+			</li>
+			<li>
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=18" aria-label="Last">
+					<span aria-hidden="true">Last</span>
+				</a>
+			</li>
+			</ul>
+</nav>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Pager/Views/default_full.php -->
+()
+in APPPATH/Views/admin/berita/testing.php on line 1.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/testing', [], true)
+ 4 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/testing')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 8 APPPATH/Controllers/Admin/Berita.php(56): view('admin/layout/wrapper', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:40:23 --> Call to undefined function <!-- DEBUG-VIEW START 1 SYSTEMPATH/Pager/Views/default_full.php -->
+
+<nav aria-label="Page navigation">
+	<ul class="pagination">
+		
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=1">
+					1				</a>
+			</li>
+					<li class="active">
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=2">
+					2				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=3">
+					3				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=4">
+					4				</a>
+			</li>
+		
+					<li>
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=5" aria-label="Next">
+					<span aria-hidden="true">Next</span>
+				</a>
+			</li>
+			<li>
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=18" aria-label="Last">
+					<span aria-hidden="true">Last</span>
+				</a>
+			</li>
+			</ul>
+</nav>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Pager/Views/default_full.php -->
+()
+in APPPATH/Views/admin/berita/testing.php on line 1.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/testing', [], true)
+ 4 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/testing')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 8 APPPATH/Controllers/Admin/Berita.php(56): view('admin/layout/wrapper', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 00:47:25 --> Call to undefined function <!-- DEBUG-VIEW START 1 SYSTEMPATH/Pager/Views/default_full.php -->
+
+<nav aria-label="Page navigation">
+	<ul class="pagination">
+		
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=1">
+					1				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=2">
+					2				</a>
+			</li>
+					<li class="active">
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=3">
+					3				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=4">
+					4				</a>
+			</li>
+					<li >
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=5">
+					5				</a>
+			</li>
+		
+					<li>
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=6" aria-label="Next">
+					<span aria-hidden="true">Next</span>
+				</a>
+			</li>
+			<li>
+				<a href="http://localhost/jw/index.php/admin/berita/testing?page=18" aria-label="Last">
+					<span aria-hidden="true">Last</span>
+				</a>
+			</li>
+			</ul>
+</nav>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Pager/Views/default_full.php -->
+()
+in APPPATH/Controllers/Admin/Berita.php on line 53.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->testing()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 01:53:31 --> Call to a member function paginate() on array
+in APPPATH/Controllers/Admin/Berita.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 01:53:59 --> Cannot use object of type stdClass as array
+in APPPATH/Views/admin/berita/index.php on line 36.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/berita/index', [], true)
+ 4 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/berita/index')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 8 APPPATH/Controllers/Admin/Berita.php(33): view('admin/layout/wrapper', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->index()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:58:36 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 274.
+ 1 APPPATH/Controllers/Admin/Berita.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 274, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:02:15 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 274.
+ 1 APPPATH/Controllers/Admin/Berita.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 274, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:05:35 --> Trying to get property 'nama_kategori' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 52.
+ 1 APPPATH/Controllers/Admin/Berita.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:05:43 --> Trying to get property 'nama_kategori' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 52.
+ 1 APPPATH/Controllers/Admin/Berita.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:05:53 --> Trying to get property 'nama_kategori' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 52.
+ 1 APPPATH/Controllers/Admin/Berita.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:08:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Konfigurasi_model.php(12): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH/Libraries/Website.php(59): App\Models\Konfigurasi_model->listing()
+ 5 APPPATH/Views/admin/layout/head.php(7): App\Libraries\Website->icon()
+ 6 APPPATH/Views/admin/layout/wrapper.php(9): include('APPPATH/Views/admin/layout/head.php')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+10 APPPATH/Controllers/Admin/Dasbor.php(14): view('admin/layout/wrapper', [...])
+11 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Dasbor->index()
+12 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:08:52 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1577.
+ 1 SYSTEMPATH/BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Models/Konfigurasi_model.php(27): CodeIgniter\Model->update([...])
+ 5 APPPATH/Controllers/Admin/Konfigurasi.php(47): App\Models\Konfigurasi_model->edit([...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:09:32 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1577.
+ 1 SYSTEMPATH/BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Models/Konfigurasi_model.php(26): CodeIgniter\Model->update([...])
+ 5 APPPATH/Controllers/Admin/Konfigurasi.php(47): App\Models\Konfigurasi_model->edit([...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:02 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:03 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1577.
+ 1 SYSTEMPATH/BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Models/Berita_model.php(270): CodeIgniter\Model->update([...])
+ 5 APPPATH/Controllers/Admin/Berita.php(260): App\Models\Berita_model->edit([...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('115')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:03 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Models/Berita_model.php on line 269.
+ 1 APPPATH/Controllers/Admin/Berita.php(260): App\Models\Berita_model->edit([...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('115')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:32 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Berita_model.php(224): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH/Controllers/Admin/Berita.php(205): App\Models\Berita_model->detail('115')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('115')
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Berita_model.php(224): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH/Controllers/Admin/Berita.php(205): App\Models\Berita_model->detail('ajax.php')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:10:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Berita_model.php(216): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH/Controllers/Admin/Berita.php(19): App\Models\Berita_model->total()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:11:30 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:11:59 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:12:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Models/Berita_model.php on line 269.
+ 1 APPPATH/Controllers/Admin/Berita.php(260): App\Models\Berita_model->edit([...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('115')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:12:01 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:12:17 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:12:25 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 265.
+ 1 APPPATH/Controllers/Admin/Berita.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 265, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:14:33 --> Allowed fields must be specified for model: App\Models\Berita_model
+in SYSTEMPATH/BaseModel.php on line 1139.
+ 1 SYSTEMPATH/BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Berita_model')
+ 2 SYSTEMPATH/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Models/Berita_model.php(262): CodeIgniter\Model->insert([...])
+ 5 APPPATH/Controllers/Admin/Berita.php(185): App\Models\Berita_model->tambah([...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:14:43 --> Allowed fields must be specified for model: App\Models\Berita_model
+in SYSTEMPATH/BaseModel.php on line 1139.
+ 1 SYSTEMPATH/BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Berita_model')
+ 2 SYSTEMPATH/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Models/Berita_model.php(262): CodeIgniter\Model->insert([...])
+ 5 APPPATH/Controllers/Admin/Berita.php(185): App\Models\Berita_model->tambah([...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:14:53 --> Allowed fields must be specified for model: App\Models\Berita_model
+in SYSTEMPATH/BaseModel.php on line 1139.
+ 1 SYSTEMPATH/BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Berita_model')
+ 2 SYSTEMPATH/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Models/Berita_model.php(262): CodeIgniter\Model->insert([...])
+ 5 APPPATH/Controllers/Admin/Berita.php(185): App\Models\Berita_model->tambah([...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:15:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH/Models/Berita_model.php on line 262.
+ 1 APPPATH/Controllers/Admin/Berita.php(185): App\Models\Berita_model->tambah([...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->tambah()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 03:16:51 --> Trying to get property 'nama_kategori' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 52.
+ 1 APPPATH/Controllers/Admin/Berita.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kategori\' of non-object', 'APPPATH/Controllers/Admin/Berita.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Berita->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

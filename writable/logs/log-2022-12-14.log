@@ -1,0 +1,111 @@
+CRITICAL - 2022-12-14 10:53:12 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 62.
+ 1 APPPATH/Controllers/Admin/Agenda.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 62, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:53:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 62.
+ 1 APPPATH/Controllers/Admin/Agenda.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 62, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:10 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', 'APPPATH/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:20 --> Class 'App\Models\Video_model' not found
+in APPPATH/Controllers/Video.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Video->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Video))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:56:36 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 62.
+ 1 APPPATH/Controllers/Admin/Agenda.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 62, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 10:58:03 --> Call to undefined method App\Models\Download_model::jenis_download
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Download.php(16): CodeIgniter\Model->__call('jenis_download', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Download->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 11:09:47 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 62.
+ 1 APPPATH/Controllers/Admin/Agenda.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 62, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 11:09:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 11:10:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 62.
+ 1 APPPATH/Controllers/Admin/Agenda.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 62, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-14 11:10:40 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 62.
+ 1 APPPATH/Controllers/Admin/Agenda.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 62, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

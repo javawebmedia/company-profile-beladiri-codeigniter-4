@@ -1,0 +1,119 @@
+.sec-title {
+  margin-bottom: calc(var(--section-title-space) - 12px);
+  margin-top: -0.23em;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: $theme-color;
+  font-family: $title-font;
+  text-transform: uppercase;
+  margin-top: -0.41em;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.title-area {
+  margin-bottom: calc(var(--section-title-space) - 12px);
+  position: relative;
+  z-index: 2;
+  .sec-title {
+    margin-bottom: 15px;
+  }
+  &.mb-0 {
+    .sec-title {
+      margin-bottom: -0.41em;
+    }
+  }
+}
+
+.sec-text {
+  max-width: 670px;
+}
+.title-area.text-center {
+  .sec-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.sec-btn {
+  margin-bottom: var(--section-title-space);
+}
+
+@include lg {
+  .sub-title {
+    margin-bottom: 18px;
+  }
+  .shadow-title {
+    font-size: 96px;
+  }
+  .title-area,
+  .sec-title {
+    --section-title-space: 60px;
+    &.mb-30 {
+      margin-bottom: 25px;
+    }
+    &.mb-40 {
+      margin-bottom: 30px;
+    }
+    &.mb-45 {
+      margin-bottom: 32px;
+    }
+    &.mb-50 {
+      margin-bottom: 35px;
+    }
+    &.mb-25 {
+      margin-bottom: 15px;
+    }
+    &.mb-35 {
+      margin-bottom: 25px;
+    }
+  }
+  .sec-btn {
+    --section-title-space: 65px;
+  }
+}
+
+@include md {
+  .shadow-title {
+    font-size: 88px;
+  }
+  .sub-title {
+    margin-bottom: 12px;
+  }
+  .title-area,
+  .sec-title {
+    --section-title-space: 45px;
+    &.mb-30 {
+      margin-bottom: 20px;
+    }
+    &.mb-40 {
+      margin-bottom: 25px;
+    }
+    &.mb-45 {
+      margin-bottom: 27px;
+    }
+    &.mb-50 {
+      margin-bottom: 28px;
+    }
+  }
+  .sec-btn {
+    --section-title-space: 45px;
+  }
+}
+
+@include sm {
+  .shadow-title {
+    font-size: 60px;
+  }
+}
+
+@include vxs {
+  .shadow-title {
+    font-size: 50px;
+    top: 55%;
+  }
+}

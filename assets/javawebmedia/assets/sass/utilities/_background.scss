@@ -1,0 +1,35 @@
+@each $bgcolorMap, $value in $bgcolorMap {
+  .bg-#{$bgcolorMap} {
+    background-color: #{$value} !important;
+  }
+}
+
+.gr-bg1 {
+  background-image: linear-gradient(255.4deg, rgba(146, 184, 253, 0.15) 5.09%, $smoke-color 63%);
+}
+.gr-bg2 {
+  background-image: linear-gradient(270deg, #EDF2FB 0%, #FFFFFF 100%);
+}
+
+.background-image,
+[data-bg-src] {
+  @include background-content(no-repeat, cover, center center);
+}
+
+.bg-fluid {
+  @include background-content(no-repeat, 100% 100%, center center);
+}
+
+.bg-auto {
+  background-size: auto auto;
+}
+
+.bg-bottom-right {
+  background-size: auto;
+  background-position: bottom right;
+}
+
+.bg-top-center {
+  background-size: 100% 67%;
+  background-position: top center;
+}

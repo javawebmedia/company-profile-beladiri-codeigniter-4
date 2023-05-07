@@ -1,0 +1,111 @@
+/* Why 1 ---------------------------------- */ 
+.img-box6 {
+    position: relative;
+    padding-right: 56px;
+    .img1, .img2 {
+        z-index: 2;
+        position: relative;
+    }
+    .img1 {
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .img2 {
+        z-index: 4;
+        margin-top: -27%;
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+        background-color: $smoke-color;
+        padding-left: 10px;
+        padding-top: 10px;
+        img {
+            border-radius: inherit;
+        }
+    }
+    .shape1, .shape2 {
+        position: absolute;
+    }
+    .shape1 {
+        bottom: 70px;
+        left: 20%;
+        z-index: 3;
+        animation: jumpAni 7s linear infinite;
+    }
+    .shape2 {
+        top: 70px;
+        left: -70px;
+        animation: jumpReverseAni 7s linear infinite;
+    }
+}
+
+.check-box {
+    display: flex;
+    gap: 15px;
+    background-color: $white-color;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 560px;
+    margin-bottom: 24px;
+    transition: 0.4s ease-in-out;
+    &:nth-of-type(even) {
+        margin-left: auto;
+    }
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    .icon i {
+        font-size: 22px;
+        color: $theme-color;
+        transition: 0.4s ease-in-out;
+    }
+    .title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: -0.28em;
+        transition: 0.4s ease-in-out;
+    }
+    .text {
+        margin-bottom: -0.48em;
+        transition: 0.4s ease-in-out;
+    }
+    &:hover {
+        background-color: $theme-color;
+        .title, .text {
+            color: $white-color;
+        }
+        .icon i {
+            color: $white-color;
+        }
+    }
+}
+
+@include ml {
+    .img-box6 {
+        padding-right: 0;
+    }
+}
+
+@include lg {
+    .img-box6 {
+        margin-bottom: 10px;
+    }
+}
+
+@include md {
+    .img-box6 {
+        margin-bottom: 30px;
+    }
+}
+
+@include xs {
+    .check-box {
+        padding: 30px 15px;
+        .title {
+            font-size: 20px;
+            margin-top: -0.2em;
+        }
+    }
+}

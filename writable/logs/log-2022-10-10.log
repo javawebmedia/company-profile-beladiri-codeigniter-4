@@ -1,0 +1,318 @@
+ERROR - 2022-10-10 10:47:51 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'client_tk', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-10-10 10:47:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-10 10:48:43 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'client_tk', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-10-10 10:48:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-10 10:48:54 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'client_tk', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-10-10 10:48:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-10 10:49:51 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'client_tk', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/tk/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/tk/app/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Login->index()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-10-10 10:49:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(25): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:54:30 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 78.
+ 1 APPPATH/Views/admin/rombel/anggota.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:54:36 --> Too few arguments to function App\Controllers\Admin\Rombel::anggota(), 0 passed in /Applications/MAMP/htdocs/tk/system/CodeIgniter.php on line 907 and exactly 1 expected
+in APPPATH/Controllers/Admin/Rombel.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:54:40 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 78.
+ 1 APPPATH/Views/admin/rombel/anggota.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:59:06 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 78.
+ 1 APPPATH/Views/admin/rombel/anggota.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:59:10 --> Undefined variable: m_siswa
+in APPPATH/Controllers/Admin/Rombel.php on line 188.
+ 1 APPPATH/Controllers/Admin/Rombel.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: m_siswa', 'APPPATH/Controllers/Admin/Rombel.php', 188, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->tambah_siswa()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:59:14 --> Undefined variable: m_siswa
+in APPPATH/Controllers/Admin/Rombel.php on line 188.
+ 1 APPPATH/Controllers/Admin/Rombel.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: m_siswa', 'APPPATH/Controllers/Admin/Rombel.php', 188, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->tambah_siswa()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 10:59:33 --> Undefined variable: m_siswa
+in APPPATH/Controllers/Admin/Rombel.php on line 188.
+ 1 APPPATH/Controllers/Admin/Rombel.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: m_siswa', 'APPPATH/Controllers/Admin/Rombel.php', 188, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->tambah_siswa()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 11:27:52 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 78.
+ 1 APPPATH/Views/admin/rombel/anggota.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 11:31:14 --> syntax error, unexpected '$m_siswa_rombel' (T_VARIABLE)
+in APPPATH/Controllers/Admin/Rombel.php on line 225.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/rombel/hapus')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/rombel/hapus')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/rombel/hapus')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 11:31:45 --> syntax error, unexpected '$m_siswa_rombel' (T_VARIABLE)
+in APPPATH/Controllers/Admin/Rombel.php on line 225.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/rombel/anggota/23')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/rombel/anggota/23')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/rombel/anggota/23')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 11:31:46 --> syntax error, unexpected '$m_siswa_rombel' (T_VARIABLE)
+in APPPATH/Controllers/Admin/Rombel.php on line 225.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/rombel/anggota/ajax.php')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/rombel/anggota/ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('admin/rombel/anggota/ajax.php')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 11:32:03 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 78.
+ 1 APPPATH/Views/admin/rombel/anggota.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-10 11:33:01 --> Trying to get property 'id_rombel' of non-object
+in APPPATH/Views/admin/rombel/anggota.php on line 78.
+ 1 APPPATH/Views/admin/rombel/anggota.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_rombel\' of non-object', 'APPPATH/Views/admin/rombel/anggota.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/rombel/anggota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/anggota', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/anggota')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Rombel.php(79): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->anggota('ajax.php')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

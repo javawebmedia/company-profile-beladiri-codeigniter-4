@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-08 03:43:43 --> Call to undefined function App\Controllers\paginasi()
+in APPPATH/Controllers/Galeri.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Galeri->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-08 04:16:47 --> Class 'App\Models\Video_model' not found
+in APPPATH/Controllers/Video.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Video->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Video))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-08 04:17:00 --> Call to undefined method App\Models\Download_model::jenis_download
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Download.php(16): CodeIgniter\Model->__call('jenis_download', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Download->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

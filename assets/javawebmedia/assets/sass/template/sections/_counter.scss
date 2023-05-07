@@ -1,0 +1,110 @@
+/* Counter 1 ---------------------------------- */
+.counter-card {
+    text-align: center;
+    padding: 100px 0;
+    &-wrap {
+        border-right: 1px solid;
+        border-color: #2F78FF !important;
+        &:last-child {
+            border-right: 0;
+        }
+    }
+    &_number {
+        color: $white-color;
+        margin-bottom: 6px;
+        margin-top: -0.24em;
+        font-weight: 600;
+    }
+    &_text {
+        color: $white-color;
+        display: block;
+        margin-bottom: -0.2em;
+        font-size: 24px;
+        strong {
+            font-weight: 600;
+        }
+    }
+}
+
+@include lg {
+    .counter-card {
+        padding: 60px 0;
+        &-wrap {
+            &:nth-child(1),
+            &:nth-child(2) {
+                border-bottom: 1px solid;
+            }
+            &:nth-child(2) {
+                border-right: 0;
+            }
+        }
+        &_text {
+            font-size: 20px;
+            margin-bottom: -0.3em;
+        }
+    }
+}
+
+@include sm {
+    .counter-card {
+        padding: 40px 0;
+        &_number {
+            margin-bottom: 0;
+        }
+        &_text {
+            font-size: 18px;
+        }
+    }
+}
+
+@include xs {
+    .counter-card {
+        &-wrap {
+            border-right: 0 !important;
+            &:nth-child(3) {
+                border-bottom: 1px solid;
+            }
+        }
+    }
+}
+
+/* Counter 2 ---------------------------------- */
+.counter-grid {
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px 20px;
+        flex-wrap: wrap;
+    }
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    &_icon {
+        min-width: 55px;
+        img {
+            transition: 0.4s ease-in-out;
+        }
+    }
+    &_number {
+        color: $theme-color;
+        margin-bottom: 0;
+        margin-top: -0.2em;
+    }
+    &_text {
+        color: $title-color;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: -0.45em;
+    }
+    &:hover {
+        .counter-grid {
+            &_icon {
+                img {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+    }
+}

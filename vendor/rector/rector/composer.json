@@ -1,0 +1,33 @@
+{
+    "name": "rector/rector",
+    "description": "Instant Upgrade and Automated Refactoring of any PHP code",
+    "license": "MIT",
+    "bin": [
+        "bin/rector"
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "phpstan/phpstan": "^1.8.3"
+    },
+    "autoload": {
+        "files": [
+            "bootstrap.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.14-dev"
+        }
+    },
+    "conflict": {
+        "phpstan/phpdoc-parser": "<1.7",
+        "rector/rector-phpunit": "*",
+        "rector/rector-symfony": "*",
+        "rector/rector-doctrine": "*",
+        "rector/rector-cakephp": "*",
+        "rector/rector-laravel": "*",
+        "rector/rector-phpoffice": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

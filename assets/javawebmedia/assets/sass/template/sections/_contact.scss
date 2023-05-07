@@ -1,0 +1,139 @@
+/* Contact Map ---------------------------------- */ 
+.map-sec {
+    position: relative;
+    .map {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: 100%;
+        iframe {
+            height: 100%;
+            width: 100%;
+            filter: grayscale(100);
+        }
+    }
+}
+
+.map-contact {
+    max-width: 590px;
+    padding: 60px;
+    background-color: $white-color;
+    border-radius: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.border-title {
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+    margin-top: -0.22em;
+    font-weight: 600;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 80px;
+        background-color: $theme-color;
+    }
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    max-width: 340px;
+    gap: 25px;
+    margin-bottom: 40px;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    &_icon {
+        @include equal-size-lineHeight(70px);
+        font-size: 30px;
+        background-color: rgba($color: #0D5EF4, $alpha: 0.07);
+        text-align: center;
+        color: $theme-color;
+        border-radius: 5px;
+        transition: 0.4s ease-in-out;
+    }
+    &_title {
+        font-size: 20px;
+        margin-bottom: 6px;
+        margin-top: -0.2em;
+    }
+    &_text {
+        margin-bottom: -0.45em;
+        line-height: 1.5;
+        display: block;
+        max-width: fit-content;
+        a {
+            color: $title-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+    &:hover {
+        .contact-info {
+            &_icon {
+                background-color: $theme-color;
+                color: $white-color;
+            }
+        }
+    }
+}
+
+@include sm {
+    .map-contact {
+        padding: 40px 40px;
+    }
+    .contact-info {
+        margin-bottom: 30px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@include xs {
+    .map-contact {
+        padding: 40px 20px;
+    }
+}
+
+@include vxs {
+    .contact-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        .media-body {
+            width: 100%;
+        }
+    }
+}
+
+/* Contact Form ---------------------------------- */ 
+.contact-form {
+    &-wrap {
+        background-color: $smoke-color;
+        padding: 100px;
+        border-radius: 10px;
+        background-position: left center;
+    }
+    max-width: 720px;
+}
+
+@include md {
+    .contact-form-wrap {
+        padding: 50px;
+    }
+}
+
+@include sm {
+    .contact-form-wrap {
+        padding: 50px 20px;
+    }
+}

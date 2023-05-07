@@ -1,0 +1,451 @@
+CRITICAL - 2023-05-01 08:10:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:10:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:10:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:10:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:10:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:10:21 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->read('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:15:33 --> Trying to get property 'judul_galeri' of non-object
+in APPPATH/Controllers/Admin/Galeri.php on line 231.
+ 1 APPPATH/Controllers/Admin/Galeri.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_galeri\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Galeri.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Galeri->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Galeri))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:16:24 --> Trying to get property 'judul_galeri' of non-object
+in APPPATH/Controllers/Admin/Galeri.php on line 231.
+ 1 APPPATH/Controllers/Admin/Galeri.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_galeri\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Galeri.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Galeri->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Galeri))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:16:40 --> Trying to get property 'judul_galeri' of non-object
+in APPPATH/Controllers/Admin/Galeri.php on line 231.
+ 1 APPPATH/Controllers/Admin/Galeri.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_galeri\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Galeri.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Galeri->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Galeri))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 08:17:00 --> Trying to get property 'judul_galeri' of non-object
+in APPPATH/Controllers/Admin/Galeri.php on line 231.
+ 1 APPPATH/Controllers/Admin/Galeri.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_galeri\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Galeri.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Galeri->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Galeri))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:23:13 --> Undefined variable: m_site
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: m_site', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 14, [])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:23:41 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:23:41 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:26:44 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:26:44 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:27:23 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:27:23 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:28:34 --> Could not check compatibility between App\Controllers\Home::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\LoggerInterface is not available
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Could not check compatibility between App\\Controllers\\Home::initController(App\\Controllers\\RequestInterface $request, App\\Controllers\\ResponseInterface $response, App\\Controllers\\LoggerInterface $logger) and App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger), because class App\\Controllers\\LoggerInterface is not available', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 9, [...])
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:28:35 --> Could not check compatibility between App\Controllers\Home::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\LoggerInterface is not available
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Could not check compatibility between App\\Controllers\\Home::initController(App\\Controllers\\RequestInterface $request, App\\Controllers\\ResponseInterface $response, App\\Controllers\\LoggerInterface $logger) and App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger), because class App\\Controllers\\LoggerInterface is not available', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 9, [...])
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 SYSTEMPATH/CodeIgniter.php(906): spl_autoload_call('App\\Controllers\\Home')
+ 7 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:28:53 --> Could not check compatibility between App\Controllers\Home::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\LoggerInterface is not available
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Could not check compatibility between App\\Controllers\\Home::initController(App\\Controllers\\RequestInterface $request, App\\Controllers\\ResponseInterface $response, App\\Controllers\\LoggerInterface $logger) and App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger), because class App\\Controllers\\LoggerInterface is not available', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 9, [...])
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:28:54 --> Could not check compatibility between App\Controllers\Home::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\LoggerInterface is not available
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Could not check compatibility between App\\Controllers\\Home::initController(App\\Controllers\\RequestInterface $request, App\\Controllers\\ResponseInterface $response, App\\Controllers\\LoggerInterface $logger) and App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger), because class App\\Controllers\\LoggerInterface is not available', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 9, [...])
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 SYSTEMPATH/CodeIgniter.php(906): spl_autoload_call('App\\Controllers\\Home')
+ 7 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:29:15 --> Declaration of App\Controllers\Home::initController() should be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of App\\Controllers\\Home::initController() should be compatible with App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger)', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 9, [...])
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:29:16 --> Declaration of App\Controllers\Home::initController() should be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of App\\Controllers\\Home::initController() should be compatible with App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger)', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 9, [...])
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 SYSTEMPATH/CodeIgniter.php(906): spl_autoload_call('App\\Controllers\\Home')
+ 7 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:29:38 --> Too few arguments to function App\Controllers\BaseController::initController(), 0 passed in /Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php on line 17 and exactly 3 expected
+in APPPATH/Controllers/BaseController.php on line 45.
+ 1 APPPATH/Controllers/Home.php(17): App\Controllers\BaseController->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:29:39 --> Too few arguments to function App\Controllers\BaseController::initController(), 0 passed in /Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php on line 17 and exactly 3 expected
+in APPPATH/Controllers/BaseController.php on line 45.
+ 1 APPPATH/Controllers/Home.php(17): App\Controllers\BaseController->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(962): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 09:30:08 --> Undefined variable: m_site
+in APPPATH/Controllers/Home.php on line 24.
+ 1 APPPATH/Controllers/Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: m_site', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Home.php', 24, [])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 17:10:51 --> Cannot redeclare App\Models\Galeri_model::jenis_galeri()
+in APPPATH/Models/Galeri_model.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-01 17:10:52 --> Cannot redeclare App\Models\Galeri_model::jenis_galeri()
+in APPPATH/Models/Galeri_model.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-01 17:13:56 --> Trying to get property 'gambar' of non-object
+in APPPATH/Views/home/index.php on line 37.
+ 1 APPPATH/Views/home/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'gambar\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Views/home/index.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Views/home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH/Views/layout/wrapper.php(10): view('home/index')
+ 6 SYSTEMPATH/View/View.php(213): include('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Views/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Home.php(37): view('layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 17:14:14 --> Trying to get property 'judul_galeri' of non-object
+in APPPATH/Controllers/Admin/Galeri.php on line 231.
+ 1 APPPATH/Controllers/Admin/Galeri.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_galeri\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Galeri.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Galeri->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Galeri))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 17:15:22 --> Trying to get property 'judul_galeri' of non-object
+in APPPATH/Controllers/Admin/Galeri.php on line 231.
+ 1 APPPATH/Controllers/Admin/Galeri.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_galeri\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Galeri.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Galeri->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Galeri))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:15:29 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:16:29 --> Undefined variable: berita
+in APPPATH/Views/home/index.php on line 100.
+ 1 APPPATH/Views/home/index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Views/home/index.php', 100, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Views/home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH/Views/layout/wrapper.php(10): view('home/index')
+ 6 SYSTEMPATH/View/View.php(213): include('/Applications/MAMP/htdocs/marketplace/companyprofile/app/Views/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Home.php(41): view('layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:17:41 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:19:04 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:21:46 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:23:39 --> Trying to get property 'judul_berita' of non-object
+in APPPATH/Controllers/Admin/Berita.php on line 282.
+ 1 APPPATH/Controllers/Admin/Berita.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Admin/Berita.php', 282, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Berita->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:10 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:10 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:11 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:11 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:11 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:12 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->kategori('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:17 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:26:18 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:48:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:48:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:48:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:48:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')
+CRITICAL - 2023-05-01 19:48:55 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 123.
+ 1 APPPATH/Controllers/Berita.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/companyprofile/app/Controllers/Berita.php', 123, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->layanan('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/companyprofile/public/index.php')

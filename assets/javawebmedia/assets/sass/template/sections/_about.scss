@@ -1,0 +1,450 @@
+/* About 1 ---------------------------------- */
+.feature-box {
+    display: flex;
+    align-items: center;
+    gap: 10px 20px;
+    &-wrap {
+        display: flex;
+        column-gap: 40px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: #E3E9F0;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    &_title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    &_text {
+        margin-bottom: 0;
+    }
+    &_icon {
+        position: relative;
+        text-align: center;
+        z-index: 2;
+    }
+}
+
+.img-box1 {
+    position: relative;
+    padding-right: 56px;
+    .counter-box {
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-70%);
+    }
+}
+.counter-box {
+    background-color: $white-color;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(19, 61, 117, 0.12);
+    .counter-title {
+        color: $theme-color;
+        margin-bottom: 0;
+    }
+    .counter-text {
+        font-size: 14px;
+        font-weight: 600;
+        color: $theme-color;
+        text-transform: uppercase;
+    }
+}
+
+@include ml {
+    .img-box1 {
+        padding-right: 0;
+    }
+}
+
+@include lg {
+    .img-box1 {
+        margin-bottom: 40px;
+    }
+}
+
+@include vxs {
+    .feature-box {
+        flex-wrap: wrap;
+    }
+}
+
+/* About 2 ---------------------------------- */
+.img-box2 {
+    position: relative;
+    padding-right: 56px;
+    img {
+        border-radius: 10px;
+    }
+    .student-count {
+        position: absolute;
+        bottom: 60px;
+        left: -70px;
+    }
+}
+.student-count {
+    display: inline-block;
+    background-color: $white-color;
+    box-shadow: 0px 4px 18px rgba(158, 165, 177, 0.23);
+    border-radius: 10px;
+    padding: 30px;
+}
+.avater-list {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 22px;
+    .avater,
+    .count {
+        width: 56px;
+        min-width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid $white-color;
+        margin-left: -25px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .count {
+        background-color: $theme-color;
+        color: $white-color;
+        display: inline-block;
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+@include xl {
+    .img-box2 {
+        .student-count {
+            bottom: 12px;
+            left: -12px;
+        }
+    }
+}
+
+@include ml {
+    .img-box2 {
+        padding-right: 0;
+    }
+}
+
+@include lg {
+    .img-box2 {
+        margin-bottom: 45px;
+    }
+}
+
+/* About 3 ---------------------------------- */
+.about-content {
+    padding-bottom: 40px;
+    padding-left: 56px;
+    padding-top: 40px;
+}
+.img-box3 {
+    img {
+        border-radius: 10px;
+    }
+}
+
+@include ml {
+    .about-content {
+        padding-bottom: 0;
+        padding-left: 30px;
+    }
+}
+
+@include lg {
+    .about-content {
+        padding-left: 0px;
+        padding-top: 0;
+    }
+}
+
+@include sm {
+    .about-sec.bg-bottom-right {
+        background-size: 240% 60%;
+    }
+}
+
+@include xs {
+    .about-sec.bg-bottom-right {
+        background-size: 240% 80%;
+    }
+}
+
+/* About 4 ---------------------------------- */
+.img-box5 {
+    position: relative;
+    margin-bottom: -120px;
+    .img1 {
+        text-align: center;
+    }
+    .shape {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: jumpAni 7s linear infinite;
+    }
+}
+
+@include lg {
+    .img-box5 {
+        position: relative;
+        margin-bottom: 40px;
+    }
+}
+
+/* About 5 ---------------------------------- */
+.img-box7 {
+    position: relative;
+    margin-right: 36px;
+    .img1, .img2 {
+        z-index: 2;
+        position: relative;
+    }
+    .img1 {
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .img2 {
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+        background-color: $white-color;
+        padding: 10px 0 10px 10px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        img {
+            border-radius: inherit;
+        }
+    }
+}
+.moto-box {
+    &-wrap {
+        margin-top: -180px;
+        position: relative;
+        z-index: 3;
+        --bs-gutter-y: 24px;
+    }
+    box-shadow: 1px 0px 28px rgba(131, 139, 154, 0.19);
+    border-radius: 10px;
+    background-color: $white-color;
+    padding: 40px;
+    &_icon {
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 2;
+        img {
+            transition: 0.4s ease-in-out;
+        }
+        &::before {
+            content: '';
+            @include equal-size(60px);
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: #0D5EF4, $alpha: 0.07);
+            z-index: -1;
+            border-radius: 999px;
+        }
+    }
+    &_title {
+        margin-top: -0.28em;
+        font-size: 24px;
+    }
+    &_text {
+        margin-bottom: -0.48em;
+        max-width: 300px;
+    }
+    &:hover {
+        .moto-box {
+            &_icon {
+                img {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+    }
+}
+
+@include lg {
+    .img-box7 {
+        margin-right: 0;
+        margin-bottom: 40px;
+        img {
+            width: 100%;
+        }
+        .img1 {
+            width: 70%;
+        }
+        .img2 {
+            width: 40%;
+        }
+    }
+    .moto-box {
+        &-wrap {
+            margin-top: 20px;
+        }
+        padding: 40px 30px;
+    }
+}
+
+/* About 6 ---------------------------------- */
+.img-box8 {
+    position: relative;
+    .img1 {
+        text-align: center;
+        img {
+            border-radius: 10px;
+        }
+    }
+    .img2 {
+        border-radius: 10px;
+        background-color: $white-color;
+        padding-top: 10px;
+        padding-left: 10px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        img {
+            border-radius: 10px;
+        }
+    }
+    .img3 {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        animation: jumpReverseAni 7s linear infinite;
+        img {
+            border-radius: 6px;
+        }
+    }
+    .shape {
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        z-index: -1;
+        animation: jumpAni 7s linear infinite;
+    }
+}
+
+@include lg {
+    .img-box8 {
+        margin-bottom: 40px;
+        .img1 {
+            img {
+                max-width: 560px;
+            }
+        }
+        .img3 {
+            img {
+                width: 260px;
+            }
+        }
+    }
+}
+@include md {
+    .img-box8 {
+        .img1 {
+            img {
+                max-width: 100%;
+            }
+        }
+        .img3 {
+            img {
+                max-width: 100%;
+                width: auto;
+            }
+        }
+    }
+}
+
+/* About 7 ---------------------------------- */
+.img-box9 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .img2 {
+        margin-bottom: 30px;
+    }
+    img {
+        border-radius: 10px;
+    }
+}
+
+@include lg {
+    .img-box9 {
+        margin-bottom: 25px;
+        img {
+            width: 100%;
+        }
+        .img-group {
+            width: 100%;
+        }
+        .img1 {
+            width: 100%;
+        }
+    }
+}
+
+/* Mockup 1 ---------------------------------- */
+.img-box4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-left: 56px;
+    .img1, .img2 {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    .img1 {
+        margin-top: -50px;
+    }
+    .img2 {
+        margin-top: 50px;
+    }
+    .shape {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@include ml {
+    .big-shape {
+        max-width: 60%;
+    }
+    .img-box4 {
+        padding-left: 0;
+    }
+}
+
+@include md {
+    .img-box4 {
+        gap: 20px;
+    }
+}
+
+@include xs {
+    .img-box4 {
+        gap: 10px;
+    }
+}

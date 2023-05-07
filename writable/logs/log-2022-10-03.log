@@ -1,0 +1,150 @@
+CRITICAL - 2022-10-03 04:22:43 --> Undefined variable: konfigurasi
+in APPPATH/Controllers/Admin/Konfigurasi.php on line 75.
+ 1 APPPATH/Controllers/Admin/Konfigurasi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: konfigurasi', 'APPPATH/Controllers/Admin/Konfigurasi.php', 75, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->sekolah()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:03:04 --> Undefined property: CodeIgniter\View\View::$website
+in APPPATH/Views/admin/konfigurasi/cetak.php on line 84.
+ 1 APPPATH/Views/admin/konfigurasi/cetak.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$website', 'APPPATH/Views/admin/konfigurasi/cetak.php', 84, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/konfigurasi/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/konfigurasi/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Konfigurasi.php(137): view('admin/konfigurasi/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->unduh()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:05:04 --> Undefined property: CodeIgniter\View\View::$website
+in APPPATH/Views/admin/konfigurasi/cetak.php on line 84.
+ 1 APPPATH/Views/admin/konfigurasi/cetak.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$website', 'APPPATH/Views/admin/konfigurasi/cetak.php', 84, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/konfigurasi/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/konfigurasi/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Konfigurasi.php(137): view('admin/konfigurasi/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->unduh()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:08:43 --> Undefined property: CodeIgniter\View\View::$website
+in APPPATH/Views/admin/konfigurasi/cetak.php on line 84.
+ 1 APPPATH/Views/admin/konfigurasi/cetak.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$website', 'APPPATH/Views/admin/konfigurasi/cetak.php', 84, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/konfigurasi/cetak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/konfigurasi/cetak', [], true)
+ 5 APPPATH/Controllers/Admin/Konfigurasi.php(137): view('admin/konfigurasi/cetak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->unduh()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:16:16 --> Undefined variable: nama_bulan
+in APPPATH/Libraries/Website.php on line 229.
+ 1 APPPATH/Libraries/Website.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_bulan', 'APPPATH/Libraries/Website.php', 229, [...])
+ 2 APPPATH/Views/admin/konfigurasi/cetak.php(168): App\Libraries\Website->bulan('2022-10-03')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/konfigurasi/cetak.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/konfigurasi/cetak', [], true)
+ 6 APPPATH/Controllers/Admin/Konfigurasi.php(137): view('admin/konfigurasi/cetak', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Konfigurasi->unduh()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Konfigurasi))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:53:25 --> Class 'App\Models\Rombel_model' not found
+in APPPATH/Controllers/Admin/Rombel.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:53:44 --> Call to undefined method App\Models\Rombel_model::all_jenjang
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/Rombel.php(18): CodeIgniter\Model->__call('all_jenjang', [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:54:15 --> Call to undefined method App\Models\Rombel_model::all_jenjang
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/Rombel.php(18): CodeIgniter\Model->__call('all_jenjang', [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:54:30 --> Undefined variable: builder
+in APPPATH/Models/Rombel_model.php on line 39.
+ 1 APPPATH/Models/Rombel_model.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH/Models/Rombel_model.php', 39, [])
+ 2 APPPATH/Controllers/Admin/Rombel.php(18): App\Models\Rombel_model->all_rombel()
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+ERROR - 2022-10-03 05:54:48 --> mysqli_sql_exception: Unknown column 'rombel.all_rombel' in 'group statement' in /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Applications/MAMP/htdocs/tk/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `rombel`...', 0)
+#1 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rombel`...')
+#2 /Applications/MAMP/htdocs/tk/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rombel`...')
+#3 /Applications/MAMP/htdocs/tk/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `rombel`...', Array, false)
+#4 /Applications/MAMP/htdocs/tk/app/Models/Rombel_model.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/tk/app/Controllers/Admin/Rombel.php(18): App\Models\Rombel_model->all_rombel()
+#6 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+#7 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+#8 /Applications/MAMP/htdocs/tk/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/tk/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/tk/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2022-10-03 05:54:48 --> Unknown column 'rombel.all_rombel' in 'group statement'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+GROUP BY `rombel`.`all_rombel`
+ORDER BY `kelas`.`urutan` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+GROUP BY `rombel`.`all_rombel`
+ORDER BY `kelas`.`urutan` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+GROUP BY `rombel`.`all_rombel`
+ORDER BY `kelas`.`urutan` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `rombel`.*, `kelas`.`nama_kelas`, `kelas`.`keterangan` AS `keterangan_kelas`, `tahun`.`nama_tahun`, `tahun`.`tahun_mulai`, `tahun`.`tahun_selesai`
+FROM `rombel`
+JOIN `kelas` ON `kelas`.`id_kelas` = `rombel`.`id_kelas`
+JOIN `tahun` ON `tahun`.`id_tahun` = `rombel`.`id_tahun`
+GROUP BY `rombel`.`all_rombel`
+ORDER BY `kelas`.`urutan` ASC', [], false)
+ 5 APPPATH/Models/Rombel_model.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Rombel.php(18): App\Models\Rombel_model->all_rombel()
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-03 05:55:03 --> Invalid file: admin/rombel/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/rombel/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/rombel/index', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/rombel/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Rombel.php(45): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Admin\Rombel->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rombel))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('FCPATH/index.php')

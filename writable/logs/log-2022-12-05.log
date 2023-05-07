@@ -1,0 +1,497 @@
+CRITICAL - 2022-12-05 02:55:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 296.
+ 1 APPPATH/Controllers/Admin/Agenda.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 296, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 02:57:13 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 296.
+ 1 APPPATH/Controllers/Admin/Agenda.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 296, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:02:13 --> Trying to get property 'nama_usia' of non-object
+in APPPATH/Controllers/Admin/Usia.php on line 72.
+ 1 APPPATH/Controllers/Admin/Usia.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_usia\' of non-object', 'APPPATH/Controllers/Admin/Usia.php', 72, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Usia->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usia))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:02:48 --> Trying to get property 'nama_usia' of non-object
+in APPPATH/Controllers/Admin/Usia.php on line 72.
+ 1 APPPATH/Controllers/Admin/Usia.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_usia\' of non-object', 'APPPATH/Controllers/Admin/Usia.php', 72, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Usia->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usia))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:03:17 --> Trying to get property 'nama_usia' of non-object
+in APPPATH/Controllers/Admin/Usia.php on line 72.
+ 1 APPPATH/Controllers/Admin/Usia.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_usia\' of non-object', 'APPPATH/Controllers/Admin/Usia.php', 72, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Usia->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usia))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:03:40 --> Trying to get property 'nama_usia' of non-object
+in APPPATH/Controllers/Admin/Usia.php on line 72.
+ 1 APPPATH/Controllers/Admin/Usia.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_usia\' of non-object', 'APPPATH/Controllers/Admin/Usia.php', 72, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Usia->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usia))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:03:52 --> Trying to get property 'nama_usia' of non-object
+in APPPATH/Controllers/Admin/Usia.php on line 72.
+ 1 APPPATH/Controllers/Admin/Usia.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_usia\' of non-object', 'APPPATH/Controllers/Admin/Usia.php', 72, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Usia->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usia))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:17:54 --> Trying to get property 'nama_tempat' of non-object
+in APPPATH/Views/admin/agenda/edit.php on line 112.
+ 1 APPPATH/Views/admin/agenda/edit.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tempat\' of non-object', 'APPPATH/Views/admin/agenda/edit.php', 112, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/edit', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/edit')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(321): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->edit('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:17:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 316.
+ 1 APPPATH/Controllers/Admin/Agenda.php(316): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 316, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:19:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 316.
+ 1 APPPATH/Controllers/Admin/Agenda.php(316): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 316, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:21:12 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 316.
+ 1 APPPATH/Controllers/Admin/Agenda.php(316): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 316, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:23:17 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 410.
+ 1 APPPATH/Controllers/Admin/Agenda.php(410): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 410, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->gambar('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:33:50 --> Class 'App\Controllers\Admin\Jadwal_agenda_model' not found
+in APPPATH/Controllers/Admin/Agenda.php on line 425.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:33:50 --> Class 'App\Controllers\Admin\Jadwal_agenda_model' not found
+in APPPATH/Controllers/Admin/Agenda.php on line 425.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:34:10 --> Call to undefined function validation_errors()
+in APPPATH/Views/admin/agenda/tambah_harga.php on line 34.
+ 1 APPPATH/Views/admin/agenda/jadwal.php(1): include()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(511): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:34:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 505.
+ 1 APPPATH/Controllers/Admin/Agenda.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 505, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:35:08 --> Call to undefined function validation_errors()
+in APPPATH/Views/admin/agenda/tambah_harga.php on line 34.
+ 1 APPPATH/Views/admin/agenda/jadwal.php(1): include()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(511): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:35:09 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 505.
+ 1 APPPATH/Controllers/Admin/Agenda.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 505, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:35:33 --> Trying to get property 'id_agenda' of non-object
+in APPPATH/Views/admin/agenda/tambah_jadwal.php on line 29.
+ 1 APPPATH/Views/admin/agenda/tambah_jadwal.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_agenda\' of non-object', 'APPPATH/Views/admin/agenda/tambah_jadwal.php', 29, [...])
+ 2 APPPATH/Views/admin/agenda/jadwal.php(1): include('APPPATH/Views/admin/agenda/tambah_jadwal.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 6 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+10 APPPATH/Controllers/Admin/Agenda.php(511): view('admin/layout/wrapper', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:35:33 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 505.
+ 1 APPPATH/Controllers/Admin/Agenda.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 505, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:36:03 --> Undefined variable: lokasi
+in APPPATH/Views/admin/agenda/tambah_jadwal.php on line 47.
+ 1 APPPATH/Views/admin/agenda/tambah_jadwal.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: lokasi', 'APPPATH/Views/admin/agenda/tambah_jadwal.php', 47, [...])
+ 2 APPPATH/Views/admin/agenda/jadwal.php(1): include('APPPATH/Views/admin/agenda/tambah_jadwal.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 6 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+10 APPPATH/Controllers/Admin/Agenda.php(511): view('admin/layout/wrapper', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:36:04 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 505.
+ 1 APPPATH/Controllers/Admin/Agenda.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 505, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 03:36:13 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 505.
+ 1 APPPATH/Controllers/Admin/Agenda.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 505, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:34:23 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 501.
+ 1 APPPATH/Controllers/Admin/Agenda.php(501): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 501, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:38:20 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 475.
+ 1 APPPATH/Controllers/Admin/Agenda.php(475): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 475, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:40:08 --> Trying to get property 'nama_tempat' of non-object
+in APPPATH/Views/admin/agenda/tambah_jadwal.php on line 53.
+ 1 APPPATH/Views/admin/agenda/tambah_jadwal.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_tempat\' of non-object', 'APPPATH/Views/admin/agenda/tambah_jadwal.php', 53, [...])
+ 2 APPPATH/Views/admin/agenda/jadwal.php(1): include('APPPATH/Views/admin/agenda/tambah_jadwal.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 6 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+10 APPPATH/Controllers/Admin/Agenda.php(482): view('admin/layout/wrapper', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:40:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:40:21 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:40:37 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:41:17 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:41:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:41:35 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:42:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:42:59 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:43:14 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:43:30 --> Trying to get property 'id_jadwal' of non-object
+in APPPATH/Views/admin/agenda/jadwal.php on line 54.
+ 1 APPPATH/Views/admin/agenda/jadwal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_jadwal\' of non-object', 'APPPATH/Views/admin/agenda/jadwal.php', 54, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(482): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:43:31 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 477.
+ 1 APPPATH/Controllers/Admin/Agenda.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 477, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:44:58 --> Undefined property: stdClass::$nama_lokasi
+in APPPATH/Views/admin/agenda/jadwal.php on line 59.
+ 1 APPPATH/Views/admin/agenda/jadwal.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama_lokasi', 'APPPATH/Views/admin/agenda/jadwal.php', 59, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(481): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:44:58 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:45:18 --> Undefined variable: produk
+in APPPATH/Views/admin/agenda/jadwal.php on line 69.
+ 1 APPPATH/Views/admin/agenda/jadwal.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: produk', 'APPPATH/Views/admin/agenda/jadwal.php', 69, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(481): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:45:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:45:32 --> Trying to get property 'id_agenda' of non-object
+in APPPATH/Views/admin/agenda/jadwal.php on line 69.
+ 1 APPPATH/Views/admin/agenda/jadwal.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_agenda\' of non-object', 'APPPATH/Views/admin/agenda/jadwal.php', 69, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/agenda/jadwal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/agenda/jadwal', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/agenda/jadwal')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Agenda.php(481): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('1')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:45:32 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:45:46 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:46:11 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:46:22 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:46:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:46:38 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:51:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:51:24 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:52:59 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-05 04:53:07 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/Agenda.php on line 476.
+ 1 APPPATH/Controllers/Admin/Agenda.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Admin/Agenda.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Agenda->jadwal('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Agenda))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('FCPATH/index.php')
