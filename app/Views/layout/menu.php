@@ -38,7 +38,7 @@ Header Area
                                                     <a href="#">Layanan</a>
                                                     <ul class="sub-menu">
                                                         <?php foreach($nav_layanan2 as $nav_layanan2) { ?>
-                                                            <li><a href="<?php echo base_url('layanan/'.$nav_layanan2->slug_berita) ?>"><?php echo $nav_layanan2->judul_berita ?></a></li>
+                                                            <li><a href="<?php echo base_url('layanan/detail/'.$nav_layanan2->slug_berita) ?>"><?php echo $nav_layanan2->judul_berita ?></a></li>
                                                         <?php } ?>
                                                         <li><a href="<?php echo base_url('layanan') ?>">Semua Layanan</a></li>
                                                     </ul>
@@ -58,7 +58,7 @@ Header Area
                                                         <li><a href="<?php echo base_url('layanan') ?>">Produk &amp; Layanan</a>
                                                             <ul>
                                                                 <?php foreach($nav_layanan as $nav_layanan) { ?>
-                                                                    <li><a href="<?php echo base_url('layanan/'.$nav_layanan->slug_berita) ?>"><?php echo $nav_layanan->judul_berita ?></a></li>
+                                                                    <li><a href="<?php echo base_url('layanan/detail/'.$nav_layanan->slug_berita) ?>"><?php echo $nav_layanan->judul_berita ?></a></li>
                                                                 <?php } ?>
                                                                 <li><a href="<?php echo base_url('layanan') ?>">Semua Layanan</a></li>
                                                             </ul>

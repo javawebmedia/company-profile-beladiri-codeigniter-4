@@ -38,7 +38,6 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 // berita
-$routes->get('layanan/(:any)', 'Berita::layanan/$1');
 $routes->get('profil/(:any)', 'Berita::profil/$1');
 // produk
 $routes->get('kelas/(:any)', 'Produk::kelas/$1');
