@@ -985,3 +985,79 @@ in APPPATH/Controllers/Cabang.php on line 46.
  4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-06-01 08:13:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-06-01 08:13:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-06-01 08:13:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-06-01 08:13:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-06-01 08:13:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 100.
+ 1 APPPATH/Controllers/Berita.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Berita->profil('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+ERROR - 2023-06-01 08:16:05 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in /Applications/MAMP/htdocs/marketplace/compro/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/marketplace/compro/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 /Applications/MAMP/htdocs/marketplace/compro/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 /Applications/MAMP/htdocs/marketplace/compro/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 /Applications/MAMP/htdocs/marketplace/compro/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 /Applications/MAMP/htdocs/marketplace/compro/app/Models/Client_model.php(130): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Register.php(71): App\Models\Client_model->tambah(Array)
+#6 /Applications/MAMP/htdocs/marketplace/compro/system/CodeIgniter.php(934): App\Controllers\Register->index()
+#7 /Applications/MAMP/htdocs/marketplace/compro/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 /Applications/MAMP/htdocs/marketplace/compro/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/marketplace/compro/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/marketplace/compro/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2023-06-01 08:16:05 --> Unknown column 'nama' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `client` (`jenis_client`, `nama`, `nama_perusahaan`, `telepon`, `email`, `password`, `password_hint`, `tanggal_post`) VALUES (\'Client\', \'Andoyo Andoyo\', \'Java Web Media\', \'+6285715100485\', \'andoyopintar@gmail.com\', \'2ee82c304fc8e3ef32194116ac5a26fd461b230b\', \'andoyopintar\', \'2023-06-01 08:16:05\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`jenis_client`, `nama`, `nama_perusahaan`, `telepon`, `email`, `password`, `password_hint`, `tanggal_post`) VALUES (\'Client\', \'Andoyo Andoyo\', \'Java Web Media\', \'+6285715100485\', \'andoyopintar@gmail.com\', \'2ee82c304fc8e3ef32194116ac5a26fd461b230b\', \'andoyopintar\', \'2023-06-01 08:16:05\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`jenis_client`, `nama`, `nama_perusahaan`, `telepon`, `email`, `password`, `password_hint`, `tanggal_post`) VALUES (\'Client\', \'Andoyo Andoyo\', \'Java Web Media\', \'+6285715100485\', \'andoyopintar@gmail.com\', \'2ee82c304fc8e3ef32194116ac5a26fd461b230b\', \'andoyopintar\', \'2023-06-01 08:16:05\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`jenis_client`, `nama`, `nama_perusahaan`, `telepon`, `email`, `password`, `password_hint`, `tanggal_post`) VALUES (:jenis_client:, :nama:, :nama_perusahaan:, :telepon:, :email:, :password:, :password_hint:, :tanggal_post:)', [...], false)
+ 5 APPPATH/Models/Client_model.php(130): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Register.php(71): App\Models\Client_model->tambah([...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-06-01 08:18:18 --> Call to undefined method App\Models\Client_model::login
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Libraries/Simple_login.php(45): CodeIgniter\Model->__call('login', [...])
+ 2 APPPATH/Controllers/Register.php(77): App\Libraries\Simple_login->login_client('andoyocakep@gmail.com', 'andoyocakep')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')

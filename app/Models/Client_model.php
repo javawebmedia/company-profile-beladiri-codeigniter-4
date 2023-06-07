@@ -111,6 +111,20 @@ class Client_model extends Model
     }
 
     // detail
+    public function login($username,$password)
+    {
+        $builder = $this->db->table('client');
+        $builder->select('client.*, kategori_client.nama_kategori_client, kategori_client.slug_kategori_client, users.nama');
+        $builder->join('kategori_client','kategori_client.id_kategori_client = client.id_kategori_client','LEFT');
+        $builder->join('users','users.id_user = client.id_user','LEFT');
+        $builder->where('client.email',$username);
+        $builder->where('client.password',$password);
+        $builder->orderBy('client.id_client','DESC');
+        $query = $builder->get();
+        return $query->getRow();
+    }
+
+    // detail
     public function detail($id_client)
     {
         $builder = $this->db->table('client');

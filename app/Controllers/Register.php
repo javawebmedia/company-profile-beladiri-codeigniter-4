@@ -29,7 +29,7 @@ class Register extends BaseController
 		// Start validasi
 		if($this->request->getMethod() === 'post' && $this->validate(
 			[
-				'nama' 				=> [	'rules'  	=> 'required',
+				'nama_client' 				=> [	'rules'  	=> 'required',
 								            'errors' 	=> [
 								                'required' 	=> 'Nama harus diisi.'
 								            ]
@@ -60,7 +60,7 @@ class Register extends BaseController
         	])) {
 			// masuk database
 			$data = [	'jenis_client'		=> 'Client',
-						'nama'				=> $this->request->getPost('nama'),
+						'nama_client'				=> $this->request->getPost('nama_client'),
 						'nama_perusahaan'	=> $this->request->getPost('nama_perusahaan'),
 						'telepon'			=> $this->request->getPost('telepon'),
 						'email'				=> $this->request->getPost('email'),

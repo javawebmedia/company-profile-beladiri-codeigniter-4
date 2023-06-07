@@ -1,6 +1,8 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-6 offset-3">
+        	<hr>
+        	<h4 class="text-center">Pendaftaran Anggota Baru</h4>
         	<div class="alert alert-info">
         		<strong>Perhatian! </strong>Isi data Anda dengan lengkap dan benar.
         	</div>
@@ -27,7 +29,7 @@
 
 				<div class="form-group mb-3">
 					<label class="label" for="name">Nama lengkap <span class="text-danger">*</span></label>
-					<input type="text" name="nama" class="form-control form-control-lg" value="<?php echo set_value('nama') ?>" required>
+					<input type="text" name="nama_client" class="form-control form-control-lg" value="<?php echo set_value('nama_client') ?>" required>
 				</div>
 
 				<div class="form-group mb-3">
@@ -36,7 +38,7 @@
 				</div>
 
 				<div class="form-group mb-3">
-					<label class="label" for="name">Nama Organisasi/Perguruan <span class="text-danger">*</span></label>
+					<label class="label" for="name">Nama Organisasi/Sekolah/Perguruan <span class="text-danger">*</span></label>
 					<input type="text" name="nama_perusahaan" class="form-control form-control-lg"  value="<?php echo set_value('nama_perusahaan') ?>" required>
 				</div>
 
