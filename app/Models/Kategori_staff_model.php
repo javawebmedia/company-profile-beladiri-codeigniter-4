@@ -21,7 +21,7 @@ class Kategori_staff_model extends Model
     {
         $builder = $this->db->table('kategori_staff');
         $builder->select('*');
-        $builder->orderBy('kategori_staff.id_kategori_staff','DESC');
+        $builder->orderBy('kategori_staff.urutan','ASC');
         $query = $builder->get();
         return $query->getResult();
     }

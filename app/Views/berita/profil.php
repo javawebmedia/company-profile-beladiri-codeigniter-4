@@ -4,7 +4,7 @@ Breadcumb
 <div class="breadcumb-wrapper background-heroj">
     <div class="container z-index-common">
         <div class="row">
-            <div class=" col-xxl-8 col-lg-8 offset-2">
+            <div class=" col-md-12">
                 <h1 class="breadcumb-title"><?php echo $title ?></h1> 
             </div>
             
@@ -18,7 +18,7 @@ Event Area
         <div class="container">
             <div class="row">
 
-                <div class="col-xxl-8 col-lg-8 offset-2">
+                <div class="col-md-12">
                     <div class="course-single">
                         <div class="course-single-top">
                             <?php if($berita->gambar !='') { ?>
@@ -32,7 +32,7 @@ Event Area
                         
                     </div>
                 </div>
-                <div class="col-xxl-8 col-lg-8 offset-2">
+                <div class="col-md-12">
                     <aside class="sidebar-area">
                         <div class="widget widget_info  ">
                         

@@ -77,6 +77,6 @@ $uri = service('uri');
   </style>
 </head>
 
-<body class="hold-transition sidebar-mini <?php if($uri->getSegment(2)=='nilai' || $uri->getSegment(2) == 'raport') { ?>sidebar-collapse<?php } ?> pace-primary">
+<body class="hold-transition sidebar-mini sidebar-collapse pace-primary">
   <!-- Site wrapper -->
   <div class="wrapper">

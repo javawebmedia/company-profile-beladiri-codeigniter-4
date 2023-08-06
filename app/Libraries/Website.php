@@ -29,6 +29,14 @@ class Website
 		return $konfigurasi->website;
 	}
 
+	// metatext
+	public function metatext()
+	{
+		$m_konfigurasi 	= new Konfigurasi_model();
+		$konfigurasi 	= $m_konfigurasi->listing();
+		return $konfigurasi->metatext;
+	}
+
 	// fitur_beladiri
 	public function fitur_beladiri()
 	{

@@ -1,0 +1,492 @@
+CRITICAL - 2023-08-05 09:47:58 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:47:59 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:47:59 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:47:59 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:48:00 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:13 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:57 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:57 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:57 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:57 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:50:57 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:24 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:24 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:24 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:25 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:25 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:43 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:44 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:44 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:44 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:51:44 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:52:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:52:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:52:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:52:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 09:52:07 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:36 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:36 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:36 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:36 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:37 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:41 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:41 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:41 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:41 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:41 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:50 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:51 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:51 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:51 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:51 --> Trying to get property 'id_kategori' of non-object
+in APPPATH/Controllers/Berita.php on line 47.
+ 1 APPPATH/Controllers/Berita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_kategori\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->kategori('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:30:52 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:31:19 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:31:19 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:31:19 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:31:19 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:31:19 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Berita.php on line 77.
+ 1 APPPATH/Controllers/Berita.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Berita.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Berita->read('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:33:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:33:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:33:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:33:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 10:33:06 --> Trying to get property 'id_berita' of non-object
+in APPPATH/Controllers/Layanan.php on line 49.
+ 1 APPPATH/Controllers/Layanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_berita\' of non-object', '/Applications/MAMP/htdocs/marketplace/compro/app/Controllers/Layanan.php', 49, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Layanan->detail('assets', 'img', 'cart', 'cart_1_5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')
+CRITICAL - 2023-08-05 12:32:25 --> Call to undefined method App\Libraries\Website::metatext()
+in APPPATH/Views/layout/head.php on line 60.
+ 1 APPPATH/Views/layout/wrapper.php(6): include()
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/marketplace/compro/app/Views/layout/wrapper.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 5 APPPATH/Controllers/Home.php(47): view('layout/wrapper', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/marketplace/compro/public/index.php')

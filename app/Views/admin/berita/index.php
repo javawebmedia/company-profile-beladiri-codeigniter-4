@@ -90,8 +90,9 @@
 				<i class="fa fa-tags"></i> <a href="<?php echo base_url('admin/berita/kategori/'.$berita->id_kategori) ?>">
 					<?php echo $berita->nama_kategori ?>
 				</a>
-				<br><i class="fa fa-home"></i> <a href="<?php echo base_url('admin/berita/jenis_berita/'.$berita->jenis_berita) ?>"></a>
+				<br><i class="fa fa-home"></i> <a href="<?php echo base_url('admin/berita/jenis_berita/'.$berita->jenis_berita) ?>">
 					<?php echo $berita->jenis_berita ?>
+				</a>
 				<br><i class="fa fa-user"></i> <a href="<?php echo base_url('admin/berita/author/'.$berita->id_user) ?>">
 						<?php echo $berita->nama ?>
 					</a>

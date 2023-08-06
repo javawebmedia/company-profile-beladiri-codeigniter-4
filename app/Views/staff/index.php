@@ -26,7 +26,7 @@ Team Area
                        <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="team-grid">
                             <div class="team-img">
-                                <img src="<?php echo base_url('assets/upload/staff/thumbs/'.$staff->gambar) ?>" alt="<?php echo $staff->nama ?>">
+                                <img src="<?php echo base_url('assets/upload/staff/'.$staff->gambar) ?>" alt="<?php echo $staff->nama ?>">
                             </div>
                             <div class="team-content text-center">
                                 <h3 class="team-title"><a href="<?php echo base_url('staff/detail/'.$staff->id_staff.'/'.strtolower(url_title($staff->nama))) ?>"><?php echo $staff->nama ?></a></h3>

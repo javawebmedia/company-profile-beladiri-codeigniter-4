@@ -13,7 +13,7 @@ Event Area
         <div class="container">
             <div class="row">
                 <?php foreach($berita as $berita) { ?>
-                <div class="col-xxl-10 col-lg-10 offset-1">
+                <div class="col-md-12">
                    <div class="as-blog blog-single has-post-thumbnail row">
                             <div class="col-md-4">
                                 <div class="blog-img">
@@ -39,7 +39,7 @@ Event Area
                     </div>
                 </div>
                 <?php } ?>
-                <div class="col-xxl-10 col-lg-10 offset-1">
+                <div class="col-md-12">
                     <div class="as-blog blog-single has-post-thumbnail row justify-content-end">
                         <?php if(isset($pagination)) { echo str_replace('index.php/','',$pagination); } ?>
                     </div>

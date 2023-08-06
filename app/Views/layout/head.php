@@ -57,6 +57,6 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/javawebmedia/assets/css/style.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/javawebmedia/assets/css/javawebmedia.css">
-  
+    <?php echo $this->website->metatext() ?>
 </head>
 <body>

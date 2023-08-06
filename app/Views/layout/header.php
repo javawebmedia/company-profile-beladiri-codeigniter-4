@@ -91,17 +91,17 @@ Mobile Menu
     <div class="as-menu-area text-center">
         <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.php">
-                <img src="http://localhost/javawebmedia/assets/upload/image/logo-javawebmedia-2020.png" alt="Acadu">
+            <a href="<?php echo base_url() ?>">
+                <img src="<?php echo $this->website->logo() ?>" alt="<?php echo $this->website->namaweb() ?>">
             </a>
         </div>
         <div class="as-mobile-menu">
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="kelas.php">Kelas</a></li>
-                <li><a href="pengajar.php">Mentor</a></li>
-                <li><a href="produk.php">Produk</a></li>
-                <li><a href="kontak.php">Kontak</a></li>
+                <li><a href="<?php echo base_url() ?>">Beranda</a></li>
+                <li><a href="<?php echo base_url('layanan') ?>">Layanan</a></li>
+                <li><a href="<?php echo base_url('staff') ?>">Staff &amp; Team</a></li>
+                <li><a href="<?php echo base_url('clients') ?>">Client</a></li>
+                <li><a href="<?php echo base_url('kontak') ?>">Kontak</a></li>
             </ul>
         </div>
     </div>
