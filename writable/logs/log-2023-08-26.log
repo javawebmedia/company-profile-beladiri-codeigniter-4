@@ -1,0 +1,49 @@
+CRITICAL - 2023-08-26 13:42:07 --> Class 'App\Models\Patient_model' not found
+in APPPATH/Controllers/Register.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-26 15:49:55 --> Cannot declare class App\Models\Vaccine_location_model, because the name is already in use
+in APPPATH/Models/Vaccine_booking_model.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-08-26 15:55:31 --> mysqli_sql_exception: Unknown column 'patient.id_patient' in 'order clause' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Patient_model.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Register.php(117): App\Models\Patient_model->email('andoyondoyo@gma...')
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Register->booking()
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2023-08-26 15:55:31 --> Unknown column 'patient.id_patient' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `patient`
+WHERE `email` = \'andoyondoyo@gmail.com\'
+ORDER BY `patient`.`id_patient` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `patient`
+WHERE `email` = \'andoyondoyo@gmail.com\'
+ORDER BY `patient`.`id_patient` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `patient`
+WHERE `email` = \'andoyondoyo@gmail.com\'
+ORDER BY `patient`.`id_patient` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `patient`
+WHERE `email` = :email:
+ORDER BY `patient`.`id_patient` DESC', [...], false)
+ 5 APPPATH/Models/Patient_model.php(68): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Register.php(117): App\Models\Patient_model->email('andoyondoyo@gmail.com')
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->booking()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

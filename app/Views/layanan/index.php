@@ -31,7 +31,7 @@ Event Area
                                     </div>
                                     <p><?php echo $berita->ringkasan ?></p>
                                     <div class="blog-bottom">
-                                        <a href="<?php echo base_url('layanan/detail/'.$berita->slug_berita) ?>" class="link-btn">Baca Detail <i class="fas fa-arrow-right"></i></a>
+                                        <a href="<?php echo base_url('layanan/detail/'.$berita->slug_berita) ?>" class="link-btn">Show Detail <i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

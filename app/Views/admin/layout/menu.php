@@ -26,6 +26,42 @@
               <p>Dashboard</p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="<?php echo base_url('admin/vaccine_booking') ?>" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>Vaccine Booking</p>
+            </a>
+          </li>
+
+          <!-- master -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>Master Data <i class="right fas fa-angle-left"></i></p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="<?php echo base_url('admin/vaccine_type') ?>" class="nav-link">
+                  <i class="fa fa-arrow-right nav-icon"></i>
+                  <p>Vaccine Type</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo base_url('admin/vaccine_location') ?>" class="nav-link">
+                  <i class="fa fa-arrow-right nav-icon"></i>
+                  <p>Vaccine Location</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo base_url('admin/patient') ?>" class="nav-link">
+                  <i class="fa fa-arrow-right nav-icon"></i>
+                  <p>All Patients</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
           <?php if($this->website->fitur_beladiri()=='On') { ?>
           <li class="nav-item">
             <a href="<?php echo base_url('admin/pendaftar') ?>" class="nav-link">

@@ -31,7 +31,7 @@ if($popup) {
                         <i class="fa fa-times"></i> &nbsp; Close
                     </button>
                     <a href="<?php echo $popup->website ?>" class="btn btn-primary" target="_blank">
-                        Lihat detail &nbsp;<i class="fa fa-chevron-right"></i>
+                        See detail &nbsp;<i class="fa fa-chevron-right"></i>
                     </a>
                   </div>
                   <!--End mc_embed_signup-->
@@ -53,7 +53,7 @@ if($popup) {
 <!--==============================
 Hero Area
 ==============================-->
-<div class="as-hero-wrapper hero-1 background-heroj">
+<div class="as-hero-wrapper hero-1" style="background-color: #047d78;">
     <div class="container z-index-common">
         <div class="row">
             <div class="col-lg-8 mt-3">
@@ -110,7 +110,7 @@ About Area
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
                         <span class="sub-title"><?php echo $this->website->tagline() ?></span>
-                        <h2 class="sec-title fw-semibold">Tentang <?php echo $this->website->namaweb() ?></h2>
+                        <h2 class="sec-title fw-semibold">About <?php echo $this->website->namaweb() ?></h2>
                     </div>
                     <h5 class="mt-n2 mb-25"><?php echo $site->ringkasan ?></h5>
                     <div class="checklist style2 mb-35">
@@ -134,8 +134,8 @@ Keunggulan
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2 mb-1">
-                <h3 class="text-center text-white mb-1">Kenapa bekerjasama dengan kami?</h3>
-                <h5 class="text-warning text-center mb-5">Temukan Alasan untuk Bekerjasama dengan <?php echo $this->website->namaweb() ?></h5>
+                <h3 class="text-center text-white mb-1">Why choose our service?</h3>
+                <h5 class="text-warning text-center mb-5">Find Reasons to use the services available at <?php echo $this->website->namaweb() ?></h5>
             </div>
         </div>
         
@@ -170,8 +170,8 @@ berita
     <section class="space">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title">Berita terbaru</span>
-                <h2 class="sec-title fw-medium">Simak Selalu Update dari Kami</h2>
+                <span class="sub-title">Latest News</span>
+                <h2 class="sec-title fw-medium">Always check out our updates</h2>
             </div>
             <div class="row as-carousel" data-slide-show="3" data-ml-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1">
 
@@ -213,41 +213,4 @@ berita
 
     <!-- end berita -->
 
-     <!--==============================
-staff
-==============================-->
-    <section class="space overflow-hidden" data-bg-src="<?php echo base_url() ?>assets/javawebmedia/assets/img/bg/testi_bg_2.jpg">
-        <div class="container">
-            <div class="title-area text-center">
-                <span class="sub-title text-warning">Our great team</span>
-                <h2 class="sec-title fw-semibold text-white">Bekerja bersama team kami yang solid</h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row gx-40" id="testiSlide1">
-
-                <?php foreach($staff as $staff) { ?>
-                <div class="col-lg-6 mb-5">
-                    <div class="testi-grid">
-                        <p class="testi-grid_text"><?php echo $staff->keahlian ?></p>
-                        <div class="testi-grid_bottom">
-                            <div class="testi-grid_author">
-                                <div class="testi-grid_avater">
-                                    <img src="<?php echo base_url('assets/upload/staff/thumbs/'.$staff->gambar) ?>" alt="<?php echo $staff->nama ?>">
-                                </div>
-                                <div>
-                                    <h3 class="testi-grid_name"><?php echo $staff->nama ?></h3>
-                                    <span class="testi-grid_desig text-warning"><?php echo $staff->jabatan ?></span>
-                                </div>
-                            </div>
-                            <div class="testi-grid_review">
-                                <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <?php } ?>
-            </div>
-        </div>
-    </section>
-    <!-- end staff -->
+    

@@ -1,0 +1,36 @@
+KONTEN YANG HARUS DISIAPKAN:
+------------
+- Logo
+- Icon
+- Banner dan texnnya
+- Service/Layanan
+
+NOTE TUGAS DEVI:
+----------------
+Website untuk booking online vaksinasi
+
+-------
+PASIEN:
+-------
+- Registrasi
+- Login
+- Booking vaksinasi
+	- Memilih waktu vaksinasi (tanggal dan jam)
+	- Memilih jenis vaksinasi 
+	- Memilih tempat vaksinasi 
+	- Dapat kode Unik
+- Melihat status booking 
+- Melihat riwayat vaksinasi
+
+--------------
+ADMINISTRATOR
+--------------
+- Mengelola data pasien
+- Mengelola data vaksinasi
+- Mengelola data jenis vaksin
+- Master:
+	- Tempat vaksinasi
+	- Jenis vaksin
+- Transaksi:
+	- Booking
+	- Riwayat_vaksin

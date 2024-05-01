@@ -24,9 +24,9 @@ class Berita extends BaseController
         $page           = ($this->request->getGet('page'))?($this->request->getGet('page')-1)*$perPage:0;
         $berita         = $m_berita->jenis_status_berita_all($jenis_berita,$status_berita,$perPage, $page);
 
-        $data = [   'title'         => 'Berita Terbaru',
-                    'description'   => 'Berita Terbaru',
-                    'keywords'      => 'Berita Terbaru',
+        $data = [   'title'         => 'Latest News',
+                    'description'   => 'Latest News',
+                    'keywords'      => 'Latest News',
                     'site'          => $site,
                     'berita'        => $berita,
                     'pagination'    => $pager_links,

@@ -22,9 +22,9 @@ class Video extends BaseController
         $page           = ($this->request->getGet('page'))?($this->request->getGet('page')-1)*$perPage:0;
         $video         	= $m_video->semua($perPage, $page);
 
-		$data = [	'title'			=> 'Galeri Video',
-					'description'	=> 'Galeri Video '.$konfigurasi->namaweb.', '.$konfigurasi->tentang,
-					'keywords'		=> 'Galeri Video '.$konfigurasi->namaweb.', '.$konfigurasi->keywords,
+		$data = [	'title'			=> 'Video Gallery',
+					'description'	=> 'Video Gallery '.$konfigurasi->namaweb.', '.$konfigurasi->tentang,
+					'keywords'		=> 'Video Gallery '.$konfigurasi->namaweb.', '.$konfigurasi->keywords,
 					'video'			=> $video,
 					'konfigurasi'	=> $konfigurasi,
 					'pagination'    => $pager_links,

@@ -4,7 +4,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 
 use App\Models\Konfigurasi_model;
-use App\Models\Client_model;
+use App\Models\Patient_model;
 
 class Signin extends BaseController
 {
@@ -22,7 +22,7 @@ class Signin extends BaseController
 			$this->session->set('pengalihan',$_GET['redirect']);
 		}
 		$m_konfigurasi 	= new Konfigurasi_model();
-		$m_client 		= new Client_model();
+		$m_patient 		= new Patient_model();
 		$konfigurasi 	= $m_konfigurasi->listing();
 
 		// Start validasi
@@ -34,12 +34,12 @@ class Signin extends BaseController
         {           
             $username       = $this->request->getPost('username');
             $password       = $this->request->getPost('password');
-            $this->simple_login->login_client($username,$password);
+            $this->simple_login->login_patient($username,$password);
         }
 		// End validasi
-		$data = [	'title'			=> 'Login Client',
-					'description'	=> 'Login Client '.$konfigurasi->namaweb.', '.$konfigurasi->tentang,
-					'keywords'		=> 'Login Client '.$konfigurasi->namaweb.', '.$konfigurasi->keywords,
+		$data = [	'title'			=> 'Login Patient',
+					'description'	=> 'Login Patient '.$konfigurasi->namaweb.', '.$konfigurasi->tentang,
+					'keywords'		=> 'Login Patient '.$konfigurasi->namaweb.', '.$konfigurasi->keywords,
 					'session'		=> $session,
 					'content'		=> 'signin/index'
 				];

@@ -1,0 +1,382 @@
+CRITICAL - 2023-10-21 11:11:15 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', '/Applications/MAMP/htdocs/keluargasehat/system/Session/Handlers/FileHandler.php', 72)
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set('session.save_path', '/Applications/MAMP/htdocs/keluargasehat/writable/session')
+ 3 SYSTEMPATH/Config/Services.php(671): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH/Config/Services.php(645): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 APPPATH/Controllers/BaseController.php(53): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH/Controllers/Home.php(19): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:11:16 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', '/Applications/MAMP/htdocs/keluargasehat/system/Session/Handlers/FileHandler.php', 72)
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set('session.save_path', '/Applications/MAMP/htdocs/keluargasehat/writable/session')
+ 3 SYSTEMPATH/Config/Services.php(671): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH/Config/Services.php(645): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 APPPATH/Controllers/BaseController.php(53): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH/Controllers/Home.php(19): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH/CodeIgniter.php(960): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-10-21 11:12:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'keluargasehat', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(29): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->index()
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(29): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2023-10-21 11:12:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'keluargasehat'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-10-21 11:12:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'keluargasehat', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(54): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->oops()
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(54): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->oops()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2023-10-21 11:12:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'keluargasehat'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(54): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->oops()
+ 6 SYSTEMPATH/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-10-21 11:14:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'keluargasehat', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(29): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->index()
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(29): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2023-10-21 11:14:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'keluargasehat'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-10-21 11:14:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'keluargasehat', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(54): App\Models\Konfigurasi_model->listing()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->oops()
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'keluargasehat' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/keluargasehat/app/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(54): App\Models\Konfigurasi_model->listing()
+#5 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->oops()
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2023-10-21 11:14:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'keluargasehat'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konfigurasi`', [], false)
+ 3 APPPATH/Models/Konfigurasi_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(54): App\Models\Konfigurasi_model->listing()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->oops()
+ 6 SYSTEMPATH/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-10-21 11:14:48 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kursus_devi.berita.icon' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `berita`...', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`...')
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`...')
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Menu_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Views/layout/menu.php(8): App\Models\Menu_model->berita()
+#6 /Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper.php(8): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/keluargasehat/system/View/View.php(224): include('/Applications/M...')
+#8 /Applications/MAMP/htdocs/keluargasehat/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Applications/MAMP/htdocs/keluargasehat/system/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#10 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(47): view('layout/wrapper', Array)
+#11 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->index()
+#12 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#15 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#16 {main}
+CRITICAL - 2023-10-21 11:14:48 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kursus_devi.berita.icon' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = \'Publish\'
+AND `jenis_berita` = \'Berita\'
+GROUP BY `berita`.`id_kategori`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = \'Publish\'
+AND `jenis_berita` = \'Berita\'
+GROUP BY `berita`.`id_kategori`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = \'Publish\'
+AND `jenis_berita` = \'Berita\'
+GROUP BY `berita`.`id_kategori`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = :status_berita:
+AND `jenis_berita` = :jenis_berita:
+GROUP BY `berita`.`id_kategori`', [...], false)
+ 5 APPPATH/Models/Menu_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Views/layout/menu.php(8): App\Models\Menu_model->berita()
+ 7 APPPATH/Views/layout/wrapper.php(8): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/menu.php')
+ 8 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper.php')
+ 9 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH/Controllers/Home.php(47): view('layout/wrapper', [...])
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-10-21 11:14:50 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kursus_devi.berita.icon' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `berita`...', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`...')
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`...')
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Menu_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Views/layout/menu.php(8): App\Models\Menu_model->berita()
+#6 /Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper.php(8): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/keluargasehat/system/View/View.php(224): include('/Applications/M...')
+#8 /Applications/MAMP/htdocs/keluargasehat/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Applications/MAMP/htdocs/keluargasehat/system/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#10 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Home.php(61): view('layout/wrapper', Array)
+#11 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Home->oops()
+#12 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#14 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#15 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#16 {main}
+CRITICAL - 2023-10-21 11:14:50 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kursus_devi.berita.icon' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = \'Publish\'
+AND `jenis_berita` = \'Berita\'
+GROUP BY `berita`.`id_kategori`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = \'Publish\'
+AND `jenis_berita` = \'Berita\'
+GROUP BY `berita`.`id_kategori`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = \'Publish\'
+AND `jenis_berita` = \'Berita\'
+GROUP BY `berita`.`id_kategori`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `berita`.`id_kategori`, `berita`.`icon`, `berita`.`ringkasan`, `berita`.`gambar`, `kategori`.`nama_kategori`, `kategori`.`slug_kategori`
+FROM `berita`
+JOIN `kategori` ON `kategori`.`id_kategori` = `berita`.`id_kategori`
+WHERE `status_berita` = :status_berita:
+AND `jenis_berita` = :jenis_berita:
+GROUP BY `berita`.`id_kategori`', [...], false)
+ 5 APPPATH/Models/Menu_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Views/layout/menu.php(8): App\Models\Menu_model->berita()
+ 7 APPPATH/Views/layout/wrapper.php(8): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/menu.php')
+ 8 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper.php')
+ 9 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH/Controllers/Home.php(61): view('layout/wrapper', [...])
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->oops()
+13 SYSTEMPATH/CodeIgniter.php(961): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH/CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:29:12 --> Undefined property: stdClass::$nama_patient
+in APPPATH/Controllers/Admin/Patient.php on line 254.
+ 1 APPPATH/Controllers/Admin/Patient.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php', 254, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->edit('3')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:29:13 --> Trying to get property 'nama_patient' of non-object
+in APPPATH/Controllers/Admin/Patient.php on line 254.
+ 1 APPPATH/Controllers/Admin/Patient.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_patient\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php', 254, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:29:25 --> Undefined variable: kategori_patient
+in APPPATH/Views/admin/patient/tambah.php on line 87.
+ 1 APPPATH/Views/admin/patient/tambah.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/tambah.php', 87, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/tambah.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/patient/tambah', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/patient/tambah')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Patient.php(125): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->tambah()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:35:29 --> Undefined variable: kategori_patient
+in APPPATH/Views/admin/patient/tambah.php on line 87.
+ 1 APPPATH/Views/admin/patient/tambah.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/tambah.php', 87, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/tambah.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/patient/tambah', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/patient/tambah')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Patient.php(122): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->tambah()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:44:42 --> Undefined property: stdClass::$nama_patient
+in APPPATH/Controllers/Admin/Patient.php on line 252.
+ 1 APPPATH/Controllers/Admin/Patient.php(252): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php', 252, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->edit('3')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:44:42 --> Trying to get property 'nama_patient' of non-object
+in APPPATH/Controllers/Admin/Patient.php on line 252.
+ 1 APPPATH/Controllers/Admin/Patient.php(252): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_patient\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php', 252, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-10-21 11:51:29 --> Trying to get property 'full_name' of non-object
+in APPPATH/Controllers/Admin/Patient.php on line 224.
+ 1 APPPATH/Controllers/Admin/Patient.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'full_name\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php', 224, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->edit('ajax.php')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

@@ -1,7 +1,7 @@
 <?php 
 namespace App\Libraries;
 use App\Models\User_model;
-use App\Models\Client_model;
+use App\Models\Patient_model;
 
 class Simple_login
 {
@@ -37,24 +37,24 @@ class Simple_login
 	}
 
 	// check login
-	public function login_client($username,$password)
+	public function login_patient($username,$password)
 	{
 		$this->session  = \Config\Services::session();
 		$uri            = service('uri');
-		$m_client 		= new Client_model();
-		$user 			= $m_client->login($username,$password);
+		$m_patient 		= new Patient_model();
+		$user 			= $m_patient->login($username,$password);
 		if($user) 
 		{
 			// Jika username password benar
-			$this->session->set('username_client',$username);
-			$this->session->set('id_client',$user->id_client);
-			$this->session->set('nama_client',$user->nama);
-			$this->session->set('akses_level','Client');
-			header("Location: client/dasbor");			
+			$this->session->set('username_patient',$username);
+			$this->session->set('patient_id',$user->patient_id);
+			$this->session->set('patient_full_name',$user->full_name);
+			$this->session->set('access_level','Patient');
+			header("Location: patient/dasbor");			
             exit;
 		}else{
 			// jika username password salah
-			$this->session->setFlashdata('warning','Username atau password salah');
+			$this->session->setFlashdata('warning','Username or password is not match');
 			return redirect()->to(base_url('signin'));
 		}
 	}
@@ -74,10 +74,10 @@ class Simple_login
 	}
 
 	// check login
-	public function checklogin_client()
+	public function checklogin_patient()
 	{
 		$this->session  = \Config\Services::session();
-		if($this->session->get('username_client')=='') 
+		if($this->session->get('username_patient')=='') 
 		{
 			$pengalihan = str_replace('index.php/','',current_url());
 			$this->session->set('pengalihan',$pengalihan);

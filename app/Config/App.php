@@ -25,7 +25,7 @@ class App extends BaseConfig
      * @var string
      */
 
-    public $baseURL = 'http://localhost/marketplace/compro/';
+    public $baseURL = 'http://localhost/websiteklinik/';
 
     /**
      * --------------------------------------------------------------------------

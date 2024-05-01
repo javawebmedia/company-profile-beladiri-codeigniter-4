@@ -1,10 +1,20 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-6 offset-3">
-        	<hr>
-        	<h4 class="text-center">Pendaftaran Anggota Baru</h4>
+        	<br><br>
+        	<h4 class="text-center">Online Registration</h4>
+
+        	<p class="text-center">
+        		<button class="btn btn-dark">
+        			1. Account Registration
+        		</button>
+        		<button class="btn btn-secondary">
+        			2. Vaccine Booking
+        		</button>
+        	</p>
+
         	<div class="alert alert-info">
-        		<strong>Perhatian! </strong>Isi data Anda dengan lengkap dan benar.
+        		<strong>Warning! </strong>Please fill this form with your identity correctly.
         	</div>
 
         	<?php 
@@ -28,29 +38,54 @@
 				<input type="hidden" name="pengalihan" value="<?php echo Session()->get('pengalihan'); ?>">
 
 				<div class="form-group mb-3">
-					<label class="label" for="name">Nama lengkap <span class="text-danger">*</span></label>
-					<input type="text" name="nama_client" class="form-control form-control-lg" value="<?php echo set_value('nama_client') ?>" required>
+					<label class="label" for="name">First Name <span class="text-danger">*</span></label>
+					<input type="text" name="first_name" class="form-control form-control-lg" value="<?php echo set_value('first_name') ?>" required>
 				</div>
 
 				<div class="form-group mb-3">
-					<label class="label" for="name">HP dengan Whatsapp Aktif <span class="text-danger">*</span></label>
-					<input type="text" name="telepon" class="form-control form-control-lg"  value="<?php echo set_value('telepon') ?>" required>
-				</div>
-
-				<div class="form-group mb-3">
-					<label class="label" for="name">Nama Organisasi/Sekolah/Perguruan <span class="text-danger">*</span></label>
-					<input type="text" name="nama_perusahaan" class="form-control form-control-lg"  value="<?php echo set_value('nama_perusahaan') ?>" required>
+					<label class="label" for="name">Last Name <span class="text-danger">*</span></label>
+					<input type="text" name="last_name" class="form-control form-control-lg" value="<?php echo set_value('last_name') ?>" required>
 				</div>
 
 				<div class="form-group mb-3">
 					<label class="label" for="name">Email (Username) <span class="text-danger">*</span></label>
 					<input type="email" name="email" class="form-control form-control-lg"  value="<?php echo set_value('email') ?>" required>
 				</div>
+
 				<div class="form-group mb-3">
 					<label class="label" for="password">Password <span class="text-danger">*</span></label>
 					<input type="password" name="password" class="form-control form-control-lg" required>
-					<small class="text-secondary">Minimal 6 dan maksimal 32 karakter</small>
+					<small class="text-secondary">At least 6 characters and no more than 32 characters</small>
 				</div>
+
+				<div class="form-group mb-3">
+					<label class="label" for="name">Identity Card Number (NIK) <span class="text-danger">*</span></label>
+					<input type="text" name="id_card_number" class="form-control form-control-lg" value="<?php echo set_value('id_card_number') ?>" required>
+				</div>
+
+				<div class="form-group mb-3">
+					<label class="label" for="name">Date of Birth <span class="text-danger">*</span></label>
+					<input type="date" name="date_of_birth" class="form-control form-control-lg" value="<?php echo set_value('date_of_birth') ?>" required>
+				</div>
+
+				<div class="form-group mb-3">
+					<label class="label" for="name">Gender <span class="text-danger">*</span></label>
+					<select name="gender" class="form-control">
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select>
+				</div>
+
+				<div class="form-group mb-3">
+					<label class="label" for="name">Phone Number <span class="text-danger">*</span></label>
+					<input type="text" name="phone_number" class="form-control form-control-lg" value="<?php echo set_value('phone_number') ?>" required>
+				</div>
+
+				<div class="form-group mb-3">
+					<label class="label" for="name">Home Address <span class="text-danger">*</span></label>
+					<textarea name="home_address" class="form-control" rows="3" required><?php echo set_value('home_address') ?></textarea>
+				</div>
+
 				<div class="form-group">
 					<button type="reset" name="reset" value="reset" class="btn btn-dark btn-lg">
 						<i class="fa fa-times"></i> Reset
@@ -64,8 +99,9 @@
 			<?php echo form_close(); ?>
 			<hr style="border-top: solid thin #666;">
 			<p class="text-center">
-				Kembali ke <a href="<?php echo base_url() ?>">Beranda</a> | Sudah punya akun? <a href="<?php echo base_url('login') ?>">Login</a>
+				Back to <a href="<?php echo base_url() ?>">Homepage</a> | Already have an account? <a href="<?php echo base_url('signin') ?>">Login Here</a>
 			</p>
+			<br><br><br><br>
         </div>
     </div>
 </div>

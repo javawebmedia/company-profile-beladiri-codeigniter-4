@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => 'root',
-        'database' => 'marketplace_website',
+        'database' => 'kursus_devi',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

@@ -6,7 +6,7 @@
 				<input type="hidden" name="pengalihan" value="<?php echo Session()->get('pengalihan'); ?>">
 
 				<div class="form-group mb-3">
-					<label class="label" for="name">Username</label>
+					<label class="label" for="name">Username (Email)</label>
 					<input type="text" name="username" class="form-control form-control-lg" placeholder="Username" required>
 				</div>
 				<div class="form-group mb-3">
@@ -26,7 +26,7 @@
 			<?php echo form_close(); ?>
 			<hr style="border-top: solid thin #666;">
 			<p class="text-center">
-				Kembali ke <a href="<?php echo base_url() ?>">Beranda</a> | Belum punya akun? <a href="<?php echo base_url('register') ?>">Register</a>
+				Back to <a href="<?php echo base_url() ?>">Homepage</a> | Make an account? <a href="<?php echo base_url('register') ?>">Register</a>
 			</p>
         </div>
     </div>

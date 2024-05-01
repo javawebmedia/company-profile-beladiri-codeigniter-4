@@ -1,0 +1,17 @@
+CRITICAL - 2023-09-04 15:50:11 --> Cannot redeclare App\Controllers\Patient\Booking::index()
+in APPPATH/Controllers/Patient/Booking.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-04 15:54:26 --> Invalid file: "patient/booking/detail.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('patient/booking/detail.php')
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('patient/booking/detail', [], true)
+ 3 APPPATH/Views/patient/layout/wrapper.php(12): view('patient/booking/detail')
+ 4 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/patient/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('patient/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Patient/Booking.php(51): view('patient/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patient\Booking->detail('UO2SU02V')
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient\Booking))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

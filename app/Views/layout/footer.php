@@ -34,14 +34,14 @@ Footer Area
                 
                 <div class="col-md-6 col-xl-4">
                     <div class="widget widget_nav_menu footer-widget">
-                        <h3 class="widget_title">Tentang kami</h3>
+                        <h3 class="widget_title">About Us</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                 <?php foreach($nav_profil as $nav_profil) { ?>
                                     <li><a href="<?php echo base_url('profil/'.$nav_profil->slug_berita) ?>"><?php echo $nav_profil->judul_berita ?></a></li>
                                 <?php } ?>
                                 <li><a href="<?php echo base_url('staff') ?>">Team <?php echo $this->website->namaweb() ?></a></li>
-                                <li><a href="<?php echo base_url('kontak') ?>">Kontak</a></li>
+                                <li><a href="<?php echo base_url('kontak') ?>">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ Footer Area
                 <div class="col-lg-6 text-end d-none d-lg-block">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="https://javawebmedia.com">Java Web Media</a></li>
+                            <li><a href="<?php echo base_url() ?>"><?php echo $this->website->namaweb() ?></a></li>
                             <li><a href="<?php echo base_url('login') ?>">Login Admin</a></li>
                         </ul>
                     </div>

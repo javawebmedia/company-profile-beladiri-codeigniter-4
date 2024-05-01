@@ -1,0 +1,40 @@
+CRITICAL - 2023-09-06 14:11:12 --> Call to undefined method App\Models\Vaccine_booking_model::vaccine_status
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Patient/Booking.php(64): CodeIgniter\Model->__call('vaccine_status', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patient\Booking->history()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient\Booking))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-06 14:11:56 --> Call to undefined method App\Models\Vaccine_booking_model::vaccine_booking_status
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Patient/Booking.php(64): CodeIgniter\Model->__call('vaccine_booking_status', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patient\Booking->history()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient\Booking))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-06 14:45:47 --> Undefined property: stdClass::$height
+in APPPATH/Views/patient/akun/index.php on line 100.
+ 1 APPPATH/Views/patient/akun/index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$height', '/Applications/MAMP/htdocs/keluargasehat/app/Views/patient/akun/index.php', 100, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/patient/akun/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('patient/akun/index', [], true)
+ 5 APPPATH/Views/patient/layout/wrapper.php(12): view('patient/akun/index')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/patient/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('patient/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Patient/Akun.php(23): view('patient/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patient\Akun->index()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient\Akun))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-06 15:33:13 --> Undefined variable: session
+in APPPATH/Controllers/Patient/Akun.php on line 93.
+ 1 APPPATH/Controllers/Patient/Akun.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', '/Applications/MAMP/htdocs/keluargasehat/app/Controllers/Patient/Akun.php', 93, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patient\Akun->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient\Akun))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

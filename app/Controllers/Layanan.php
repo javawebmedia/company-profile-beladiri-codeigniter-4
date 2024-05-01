@@ -27,9 +27,9 @@ class Layanan extends BaseController
         $page           = ($this->request->getGet('page'))?($this->request->getGet('page')-1)*$perPage:0;
         $berita         = $m_berita->jenis_status_berita_all($jenis_berita,$status_berita,$perPage, $page);
 
-		$data = [	'title'			=> 'Produk &amp; Layanan',
-					'description'	=> 'Produk &amp; Layanan',
-					'keywords'		=> 'Produk &amp; Layanan',
+		$data = [	'title'			=> 'Product &amp; Services',
+					'description'	=> 'Product &amp; Services',
+					'keywords'		=> 'Product &amp; Services',
 					'site'          => $site,
                     'berita'        => $berita,
                     'pagination'    => $pager_links,

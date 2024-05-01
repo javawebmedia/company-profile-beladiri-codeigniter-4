@@ -1,0 +1,149 @@
+CRITICAL - 2023-09-19 16:11:36 --> Class 'App\Models\Kategori_patient_model' not found
+in APPPATH/Controllers/Admin/Patient.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:20:34 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Admin/Patient.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:22:06 --> Argument 3 passed to CodeIgniter\Pager\Pager::makeLinks() must be of the type int, object given, called in /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php on line 34
+in SYSTEMPATH/Pager/Pager.php on line 104.
+ 1 APPPATH/Controllers/Admin/Patient.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 25, Object(stdClass), 'bootstrap_pagination')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:22:33 --> Call to undefined method App\Models\Patient_model::paginasi_admin
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Admin/Patient.php(36): CodeIgniter\Model->__call('paginasi_admin', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:25:32 --> Argument 3 passed to CodeIgniter\Pager\Pager::makeLinks() must be of the type int, object given, called in /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php on line 34
+in SYSTEMPATH/Pager/Pager.php on line 104.
+ 1 APPPATH/Controllers/Admin/Patient.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 25, Object(stdClass), 'bootstrap_pagination')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:26:45 --> Argument 3 passed to CodeIgniter\Pager\Pager::makeLinks() must be of the type int, object given, called in /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php on line 34
+in SYSTEMPATH/Pager/Pager.php on line 104.
+ 1 APPPATH/Controllers/Admin/Patient.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 25, Object(stdClass), 'bootstrap_pagination')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:27:59 --> Undefined variable: kategori_patient
+in APPPATH/Views/admin/patient/index.php on line 37.
+ 1 APPPATH/Views/admin/patient/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/patient/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/patient/index')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Patient.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:28:39 --> Undefined property: stdClass::$id_patient
+in APPPATH/Views/admin/patient/index.php on line 70.
+ 1 APPPATH/Views/admin/patient/index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php', 70, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/patient/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/patient/index')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Patient.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:30:02 --> Undefined property: stdClass::$gambar
+in APPPATH/Views/admin/patient/index.php on line 76.
+ 1 APPPATH/Views/admin/patient/index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gambar', '/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php', 76, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/patient/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/patient/index')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Patient.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 16:33:42 --> Undefined property: stdClass::$status_patient
+in APPPATH/Views/admin/patient/index.php on line 88.
+ 1 APPPATH/Views/admin/patient/index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status_patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php', 88, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/patient/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/patient/index', [], true)
+ 5 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/patient/index')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 9 APPPATH/Controllers/Admin/Patient.php(45): view('admin/layout/wrapper', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-09-19 17:03:42 --> mysqli_sql_exception: Unknown column 'id_user' in 'field list' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Patient_model.php(99): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Admin/Patient.php(150): App\Models\Patient_model->edit(Array)
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Admin\Patient->proses()
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2023-09-19 17:03:42 --> Unknown column 'id_user' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `patient` SET `patient_id` = \'1\', `id_user` = \'1\', `gender` = \'Female\'
+WHERE `patient_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `patient_id` = \'1\', `id_user` = \'1\', `gender` = \'Female\'
+WHERE `patient_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `patient_id` = \'1\', `id_user` = \'1\', `gender` = \'Female\'
+WHERE `patient_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `patient_id` = :patient_id.1:, `id_user` = :id_user:, `gender` = :gender:
+WHERE `patient_id` = :patient_id:', [...], false)
+ 5 APPPATH/Models/Patient_model.php(99): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/Admin/Patient.php(150): App\Models\Patient_model->edit([...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->proses()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-19 17:10:46 --> Call to undefined method App\Models\Patient_model::total_cari
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Admin/Patient.php(20): CodeIgniter\Model->__call('total_cari', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Patient->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Patient))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

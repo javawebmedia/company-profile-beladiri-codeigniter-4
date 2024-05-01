@@ -23,9 +23,9 @@ class Galeri extends BaseController
         $page           = ($this->request->getGet('page'))?($this->request->getGet('page')-1)*$perPage:0;
         $galeri         = $m_galeri->paginasi_admin($perPage, $page);
 
-		$data = [	'title'			=> 'Galeri Gambar',
-					'description'	=> 'Galeri Gambar '.$konfigurasi->namaweb.', '.$konfigurasi->tentang,
-					'keywords'		=> 'Galeri Gambar '.$konfigurasi->namaweb.', '.$konfigurasi->keywords,
+		$data = [	'title'			=> 'Image Gallery',
+					'description'	=> 'Image Gallery '.$konfigurasi->namaweb.', '.$konfigurasi->tentang,
+					'keywords'		=> 'Image Gallery '.$konfigurasi->namaweb.', '.$konfigurasi->keywords,
 					'galeri'		=> $galeri,
 					'pagination'    => $pager_links,
 					'konfigurasi'	=> $konfigurasi,

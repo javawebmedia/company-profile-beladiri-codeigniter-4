@@ -41,7 +41,7 @@ Event Area
                                     <div class="media-body">
                                         <h4 class="contact-info_title"><strong>Phone Number</strong></h4>
                                         <span class="contact-info_text">
-                                            <span>Telepon: <a href="tel:<?php echo $konfigurasi->telepon ?>"><?php echo $konfigurasi->telepon ?></a></span>
+                                            <span>Phone: <a href="tel:<?php echo $konfigurasi->telepon ?>"><?php echo $konfigurasi->telepon ?></a></span>
                                             <br>
                                             <span>HP: <a href="tel:<?php echo $konfigurasi->hp ?>"><?php echo $konfigurasi->hp ?></a></span>
                                         </span>

@@ -1,0 +1,199 @@
+CRITICAL - 2023-08-27 15:07:02 --> Trying to get property 'first_name' of non-object
+in APPPATH/Views/register/booking.php on line 42.
+ 1 APPPATH/Views/register/booking.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'first_name\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/booking', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/booking')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(186): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->booking()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:20:33 --> Trying to get property 'first_name' of non-object
+in APPPATH/Views/register/booking.php on line 42.
+ 1 APPPATH/Views/register/booking.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'first_name\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/booking', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/booking')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(161): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->booking()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:21:11 --> Trying to get property 'first_name' of non-object
+in APPPATH/Views/register/booking.php on line 42.
+ 1 APPPATH/Views/register/booking.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'first_name\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/booking', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/booking')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(155): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->booking()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:21:20 --> Trying to get property 'first_name' of non-object
+in APPPATH/Views/register/booking.php on line 42.
+ 1 APPPATH/Views/register/booking.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'first_name\' of non-object', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/booking.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/booking', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/booking')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(155): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->booking()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:34:13 --> Call to undefined method App\Models\Vaccine_booking_model::vaccine_booking_code
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Register.php(164): CodeIgniter\Model->__call('vaccine_booking_code', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:36:45 --> Invalid file: "register/success.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register/success.php')
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/success', [], true)
+ 3 APPPATH/Views/layout/wrapper-2.php(9): view('register/success')
+ 4 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 7 APPPATH/Controllers/Register.php(172): view('layout/wrapper-2', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:39:24 --> Invalid file: "register/success.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register/success.php')
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/success', [], true)
+ 3 APPPATH/Views/layout/wrapper-2.php(9): view('register/success')
+ 4 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 7 APPPATH/Controllers/Register.php(172): view('layout/wrapper-2', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+ERROR - 2023-08-27 16:44:17 --> mysqli_sql_exception: Unknown column 'vaccine_location.patient_id' in 'on clause' in /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/keluargasehat/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `vaccine...', 0)
+#1 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vaccine...')
+#2 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vaccine...')
+#3 /Applications/MAMP/htdocs/keluargasehat/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `vaccine...', Array, false)
+#4 /Applications/MAMP/htdocs/keluargasehat/app/Models/Vaccine_booking_model.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/keluargasehat/app/Controllers/Register.php(164): App\Models\Vaccine_booking_model->vaccine_booking_code('KOOS67OE')
+#6 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+#7 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 /Applications/MAMP/htdocs/keluargasehat/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/keluargasehat/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/keluargasehat/index.php(6): require_once('/Applications/M...')
+#11 {main}
+CRITICAL - 2023-08-27 16:44:17 --> Unknown column 'vaccine_location.patient_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `vaccine_booking`.*, `patient`.`first_name`, `patient`.`full_name`, `patient`.`last_name`, `patient`.`id_card_number`, `vaccine_type`.`vaccine_type_name`, `vaccine_location`.`vaccine_location_name`
+FROM `vaccine_booking`
+LEFT JOIN `patient` ON `patient`.`patient_id` = `vaccine_booking`.`patient_id`
+LEFT JOIN `vaccine_type` ON `vaccine_type`.`vaccine_type_id` = `vaccine_booking`.`vaccine_type_id`
+LEFT JOIN `vaccine_location` ON `vaccine_location`.`patient_id` = `vaccine_booking`.`vaccine_location_id`
+WHERE `vaccine_booking_code` = \'KOOS67OE\'
+ORDER BY `vaccine_booking`.`vaccine_booking_id` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vaccine_booking`.*, `patient`.`first_name`, `patient`.`full_name`, `patient`.`last_name`, `patient`.`id_card_number`, `vaccine_type`.`vaccine_type_name`, `vaccine_location`.`vaccine_location_name`
+FROM `vaccine_booking`
+LEFT JOIN `patient` ON `patient`.`patient_id` = `vaccine_booking`.`patient_id`
+LEFT JOIN `vaccine_type` ON `vaccine_type`.`vaccine_type_id` = `vaccine_booking`.`vaccine_type_id`
+LEFT JOIN `vaccine_location` ON `vaccine_location`.`patient_id` = `vaccine_booking`.`vaccine_location_id`
+WHERE `vaccine_booking_code` = \'KOOS67OE\'
+ORDER BY `vaccine_booking`.`vaccine_booking_id` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vaccine_booking`.*, `patient`.`first_name`, `patient`.`full_name`, `patient`.`last_name`, `patient`.`id_card_number`, `vaccine_type`.`vaccine_type_name`, `vaccine_location`.`vaccine_location_name`
+FROM `vaccine_booking`
+LEFT JOIN `patient` ON `patient`.`patient_id` = `vaccine_booking`.`patient_id`
+LEFT JOIN `vaccine_type` ON `vaccine_type`.`vaccine_type_id` = `vaccine_booking`.`vaccine_type_id`
+LEFT JOIN `vaccine_location` ON `vaccine_location`.`patient_id` = `vaccine_booking`.`vaccine_location_id`
+WHERE `vaccine_booking_code` = \'KOOS67OE\'
+ORDER BY `vaccine_booking`.`vaccine_booking_id` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `vaccine_booking`.*, `patient`.`first_name`, `patient`.`full_name`, `patient`.`last_name`, `patient`.`id_card_number`, `vaccine_type`.`vaccine_type_name`, `vaccine_location`.`vaccine_location_name`
+FROM `vaccine_booking`
+LEFT JOIN `patient` ON `patient`.`patient_id` = `vaccine_booking`.`patient_id`
+LEFT JOIN `vaccine_type` ON `vaccine_type`.`vaccine_type_id` = `vaccine_booking`.`vaccine_type_id`
+LEFT JOIN `vaccine_location` ON `vaccine_location`.`patient_id` = `vaccine_booking`.`vaccine_location_id`
+WHERE `vaccine_booking_code` = :vaccine_booking_code:
+ORDER BY `vaccine_booking`.`vaccine_booking_id` DESC', [...], false)
+ 5 APPPATH/Models/Vaccine_booking_model.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Register.php(164): App\Models\Vaccine_booking_model->vaccine_booking_code('KOOS67OE')
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 16:44:37 --> Undefined variable: patient
+in APPPATH/Views/register/success.php on line 42.
+ 1 APPPATH/Views/register/success.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/success.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/success.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/success', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/success')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(172): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 17:15:09 --> Undefined variable: patient
+in APPPATH/Views/register/success.php on line 42.
+ 1 APPPATH/Views/register/success.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: patient', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/success.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/success.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/success', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/success')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(172): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-08-27 17:21:46 --> Undefined property: stdClass::$date_of_birth
+in APPPATH/Views/register/success.php on line 27.
+ 1 APPPATH/Views/register/success.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$date_of_birth', '/Applications/MAMP/htdocs/keluargasehat/app/Views/register/success.php', 27, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/register/success.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('register/success', [], true)
+ 5 APPPATH/Views/layout/wrapper-2.php(9): view('register/success')
+ 6 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/layout/wrapper-2.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('layout/wrapper-2', [], true)
+ 9 APPPATH/Controllers/Register.php(172): view('layout/wrapper-2', [...])
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Register->success('KOOS67OE')
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

@@ -1,0 +1,23 @@
+CRITICAL - 2023-09-14 12:31:01 --> Invalid file: "admin/vaccine_booking/detail.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vaccine_booking/detail.php')
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/vaccine_booking/detail', [], true)
+ 3 APPPATH/Views/admin/layout/wrapper.php(13): view('admin/vaccine_booking/detail')
+ 4 SYSTEMPATH/View/View.php(224): include('/Applications/MAMP/htdocs/keluargasehat/app/Views/admin/layout/wrapper.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/layout/wrapper', [], true)
+ 7 APPPATH/Controllers/Admin/Vaccine_booking.php(46): view('admin/layout/wrapper', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Vaccine_booking->detail('VXW3DDRA')
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Vaccine_booking))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')
+CRITICAL - 2023-09-14 12:41:59 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Controllers/Admin/Vaccine_booking.php on line 69.
+ 1 SYSTEMPATH/Router/Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('admin/vaccine_booking', 'get')
+ 2 SYSTEMPATH/Router/Router.php(208): CodeIgniter\Router\Router->autoRoute('admin/vaccine_booking')
+ 3 SYSTEMPATH/CodeIgniter.php(813): CodeIgniter\Router\Router->handle('admin/vaccine_booking')
+ 4 SYSTEMPATH/CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH/index.php(6): require_once('/Applications/MAMP/htdocs/keluargasehat/public/index.php')

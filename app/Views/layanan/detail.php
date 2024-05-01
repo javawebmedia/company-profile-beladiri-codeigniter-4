@@ -36,7 +36,7 @@ Event Area
                     <aside class="sidebar-area">
                         <div class="widget widget_info  ">
                         
-                            <h3 class="widget_title">Tentang kami</h3>
+                            <h3 class="widget_title">About Us</h3>
                             <div class="info-list">
                                 <ul>
                                     <?php foreach($news as $news) { ?>
